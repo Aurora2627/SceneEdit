@@ -1,0 +1,12 @@
+{
+  "job_id": "car-turn-coast",
+  "source_video": "D:\\career-projects\\data\\SceneEdit\\davis-car-cases\\car-turn\\source.avi",
+  "mask": "D:\\career-projects\\data\\SceneEdit\\davis-car-cases\\car-turn\\foreground-mask.avi",
+  "mask_semantics": "foreground_white",
+  "product_description": "A passenger car driving, retaining the same body color, shape and appearance",
+  "target_scene": "a coastal road with the blue sea and distant cliffs, warm late afternoon daylight",
+  "source_group": "car-turn",
+  "data_role": "heldout_case",
+  "dataset": "DAVIS 2017",
+  "provenance_sha256": "bb9bbe31984c62a61a49390c122afef3ffeaabfcccde13e102456c95c70a448e"
+}

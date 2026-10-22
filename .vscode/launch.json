@@ -1,0 +1,61 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SceneEdit: 准备视频与掩码",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "scenedit.prepare",
+      "python": "D:/career-projects/envs/scenedit/Scripts/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--job",
+        "${input:job}",
+        "--output-dir",
+        "${input:prepared}",
+        "--profile",
+        "pilot"
+      ]
+    },
+    {
+      "name": "SceneEdit: CUDA 背景编辑",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "scenedit.infer",
+      "python": "D:/career-projects/envs/scenedit/Scripts/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--prepared",
+        "${input:prepared}",
+        "--model-dir",
+        "D:/career-projects/models/SceneEdit/574e6a744642ce3bee319afc31496b88bde8aac4",
+        "--output-dir",
+        "${input:generated}"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "job",
+      "type": "promptString",
+      "description": "任务 JSON 路径",
+      "default": "examples/product-job.json"
+    },
+    {
+      "id": "prepared",
+      "type": "promptString",
+      "description": "预处理输出目录（新建）或已准备好的目录",
+      "default": "D:/career-projects/runs/SceneEdit/my-product/prepared"
+    },
+    {
+      "id": "generated",
+      "type": "promptString",
+      "description": "生成结果目录（必须不存在）",
+      "default": "D:/career-projects/runs/SceneEdit/my-product/generated"
+    }
+  ]
+}

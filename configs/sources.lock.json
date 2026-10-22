@@ -1,0 +1,15 @@
+{
+  "framework": {
+    "repository": "https://github.com/modelscope/DiffSynth-Studio",
+    "commit": "baac56f232efc200fed95c483171ca350a7f69d1"
+  },
+  "model": {
+    "repository": "Wan-AI/Wan2.1-VACE-1.3B",
+    "revision": "574e6a744642ce3bee319afc31496b88bde8aac4"
+  },
+  "benchmark": {
+    "repository": "ali-vilab/VACE-Benchmark",
+    "revision": "c70300e817d21c9fdb6bccddecadf8d57e02a0f3"
+  },
+  "model_reference": "https://github.com/ali-vilab/VACE"
+}

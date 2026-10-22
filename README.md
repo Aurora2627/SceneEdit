@@ -1,0 +1,48 @@
+# SceneEdit：基于 Wan VACE 的汽车广告视频背景编辑
+
+将已有汽车视频转换为不同场景的广告素材：输入原视频、逐帧前景掩码、参考图和目标描述，在保留车身及运动的同时编辑背景。当前是研究原型，使用 DAVIS 公共研究数据验证流程。
+
+## 当前实现
+
+- Python/PyTorch CUDA 推理，基于固定版本的 DiffSynth-Studio 与 Wan2.1-VACE-1.3B。
+- 按时间戳同步采样视频和掩码，统一缩放与填充；显式区分前景白色和编辑区域白色，自动构造背景编辑条件。
+- 从首帧构造车身参考图；固定输入、提示词、种子和采样步数，比较有参考图与无参考图。
+- 原始 PTH 权重无损分片，逐张量校验 BF16 字节一致性；磁盘到 CUDA 按层卸载，使用 safetensors pread 读取。
+- 保留原始生成帧，不用复制原始前景掩盖模型误差。记录前景区域像素误差、背景变化、耗时和显存；人工检查外观、边缘与时序稳定性。
+- 输入、权重和代码快照均有 SHA256；每次实验使用独立目录，失败日志保留。
+
+## 实际运行环境
+
+| 组件 | 版本或硬件 |
+|---|---|
+| 系统 | Windows，VS Code Remote SSH |
+| Python | 3.11.9 |
+| PyTorch / torchvision | 2.6.0+cu124 / 0.21.0 |
+| CUDA runtime | 12.4 |
+| transformers / accelerate | 4.53.2 / 1.10.1 |
+| safetensors | 0.8.0，pread 后端 |
+| GPU / 内存 | RTX 4060 Laptop 8 GB / 16 GB |
+
+解释器及调试入口已保存在 VS Code 项目配置中。具体依赖以 configs 中的锁定文件为准。
+
+## 汽车换背景实验
+
+DAVIS 2017 的 car-roundabout 用于开发，car-turn 用于独立案例检查。每段选取 51 对原始图像和标注，按明确设定的 25 fps 组装输入；这不是对原始拍摄帧率的推断。目标背景为海岸公路。两段视频不能代表广泛的商业泛化能力。
+
+| 档位 | 输出规格 | 步数 | 用途 |
+|---|---|---|---|
+| smoke | 256×144，5 帧 | 4 | 接口与生成链路检查 |
+| pilot | 448×256，17 帧 | 20 | 参考图对比 |
+| quality | 832×480，81 帧 | 50 | 更大显存设备，未运行 |
+
+当前：14 项自动检查通过。最小真实生成测试已完成（约 51.69 秒，峰值显存 4.46 GB）；汽车对比实验进行中，结果尚未产生，未进行 LoRA 训练，也未证明质量提升。
+
+运行入口为 scenedit.prepare、scenedit.infer 和 scripts/run_car_baseline.py。作业配置位于 examples/davis-car-roundabout.json 与 examples/davis-car-turn.json。原始数据、权重及运行目录均位于仓库外，避免加入 Git。
+
+## 评估边界
+
+像素误差仅用于定位主体漂移；背景变化不等于符合提示词。最终需要结合原始输出人工检查：车身颜色和形状、轮廓边缘、海岸场景匹配、跨帧闪烁。训练将在基线暴露明确问题、建立独立且匹配目标的数据后开展。
+
+## 来源
+
+生成引擎：[DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)，以 Git 子模块固定版本，保留 Apache-2.0 许可证与 NOTICE。基础模型：[Wan2.1-VACE-1.3B](https://huggingface.co/Wan-AI/Wan2.1-VACE-1.3B)。数据：[DAVIS 2017](https://davischallenge.org/davis2017/code.html)，遵守原始数据使用条件。官方 VACE 样例仅用于接口检查。精确提交及模型版本见 configs/sources.lock.json。

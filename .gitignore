@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+build/
+dist/
+data/
+models/
+runs/
+*.pt
+*.pth
+*.safetensors
+*.mp4
+*.png
+*.jpg
+*.log
+!reports/**/metrics.json

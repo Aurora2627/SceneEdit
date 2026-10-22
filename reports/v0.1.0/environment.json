@@ -1,0 +1,7 @@
+{
+  "status": "ready",
+  "python": "D:\\career-projects\\envs\\scenedit\\Scripts\\python.exe",
+  "torch": "2.6.0+cu124",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "checked": "2026-10-22T15:50:57.636275+08:00"
+}

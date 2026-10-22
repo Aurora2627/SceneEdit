@@ -1,0 +1,12 @@
+{
+  "job_id": "insulated-cup-cafe",
+  "source_video": "D:/career-projects/data/SceneEdit/custom/cup.mp4",
+  "mask": "D:/career-projects/data/SceneEdit/custom/cup-foreground-mask.mp4",
+  "mask_semantics": "foreground_white",
+  "product_description": "A stainless steel insulated cup with a blue body, shown by a hand",
+  "target_scene": "a warm autumn cafe interior, wooden counter, soft window lighting",
+  "reference_image": null,
+  "source_group": "cup_shoot_001",
+  "data_role": "application_input",
+  "note": "Replace paths with real footage and a temporally aligned mask; this example is a schema, not an executed result."
+}

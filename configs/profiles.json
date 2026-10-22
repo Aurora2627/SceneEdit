@@ -1,0 +1,35 @@
+{
+  "smoke": {
+    "width": 256,
+    "height": 144,
+    "num_frames": 5,
+    "fps": 8,
+    "steps": 4,
+    "seed": 42,
+    "cfg_scale": 5.0,
+    "vace_scale": 1.0,
+    "vram_limit_gib": 5.5
+  },
+  "pilot": {
+    "width": 448,
+    "height": 256,
+    "num_frames": 17,
+    "fps": 8,
+    "steps": 20,
+    "seed": 42,
+    "cfg_scale": 5.0,
+    "vace_scale": 1.0,
+    "vram_limit_gib": 5.5
+  },
+  "quality": {
+    "width": 832,
+    "height": 480,
+    "num_frames": 81,
+    "fps": 15,
+    "steps": 50,
+    "seed": 42,
+    "cfg_scale": 5.0,
+    "vace_scale": 1.0,
+    "vram_limit_gib": 20.0
+  }
+}

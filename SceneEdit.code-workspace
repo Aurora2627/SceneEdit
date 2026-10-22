@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "SceneEdit",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "D:/career-projects/envs/scenedit/Scripts/python.exe"
+  }
+}

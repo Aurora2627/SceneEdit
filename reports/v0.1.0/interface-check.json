@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "pipeline_required_parameters": [
+    "num_frames",
+    "num_inference_steps",
+    "vace_reference_image",
+    "vace_video",
+    "vace_video_mask"
+  ],
+  "model_config_accepts_path": true,
+  "gpu_guard": "blocked pending ClipRank as expected"
+}

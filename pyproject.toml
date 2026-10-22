@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scenedit"
+version = "0.1.0"
+description = "Controlled background editing for product videos"
+requires-python = ">=3.10"
+
+[project.scripts]
+scenedit-prepare = "scenedit.prepare:main"
+scenedit-infer = "scenedit.infer:main"
+scenedit-evaluate = "scenedit.metrics:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

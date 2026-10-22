@@ -1,0 +1,12 @@
+{
+  "job_id": "car-roundabout-coast",
+  "source_video": "D:\\career-projects\\data\\SceneEdit\\davis-car-cases\\car-roundabout\\source.avi",
+  "mask": "D:\\career-projects\\data\\SceneEdit\\davis-car-cases\\car-roundabout\\foreground-mask.avi",
+  "mask_semantics": "foreground_white",
+  "product_description": "A passenger car driving, retaining the same body color, shape and appearance",
+  "target_scene": "a coastal road with the blue sea and distant cliffs, warm late afternoon daylight",
+  "source_group": "car-roundabout",
+  "data_role": "development",
+  "dataset": "DAVIS 2017",
+  "provenance_sha256": "6697ec220f53c8f9d385a583bc16399681efee3ac61f457ba4279b8aa5b82e51"
+}

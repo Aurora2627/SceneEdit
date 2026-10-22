@@ -1,0 +1,81 @@
+{
+  "profile": {
+    "width": 256,
+    "height": 144,
+    "num_frames": 5,
+    "fps": 8,
+    "steps": 4,
+    "seed": 42,
+    "cfg_scale": 5.0,
+    "vace_scale": 1.0,
+    "vram_limit_gib": 5.5
+  },
+  "use_reference": true,
+  "seconds": 51.68544470000779,
+  "peak_allocated_gib": 4.457338809967041,
+  "peak_reserved_gib": 4.58984375,
+  "output_sha256": "e91ad65faf8bb11a9695bda17829011061966ca10f4f9b1b4726e508ee1fb7b9",
+  "video_info": {
+    "frames": 5,
+    "fps": 8.0,
+    "width": 256,
+    "height": 144
+  },
+  "torch": "2.6.0+cu124",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "checkpoint_io": {
+    "safetensors": "0.8.0",
+    "backend": "pread",
+    "patched_modules": [
+      "diffsynth.core.vram.disk_map",
+      "diffsynth.core.loader.file"
+    ]
+  },
+  "model_identity_sha256": "49f00061989715c3c00532d40975f35d5e7f9f867ceb910c20b775199b74909d",
+  "converted_checkpoint_identity_sha256": "ad0542726e4319889a95cd4d628aee0c0930a1e23577eb46fc7f37be9dc444cc",
+  "recovery_note": "Generation succeeded; re-evaluated saved output after normalizing checksum key separators. No generation rerun or frame modification.",
+  "status": "complete",
+  "scope": "Official VACE example, plumbing test only; no claim of automotive quality",
+  "metrics": {
+    "frames": 5,
+    "mean": {
+      "protected_pixel_mae": 0.1146888330578804,
+      "background_pixel_mae": 0.3780309557914734
+    },
+    "per_frame": [
+      {
+        "frame": 0,
+        "protected_pixel_mae": 0.10046755522489548,
+        "background_pixel_mae": 0.4129462242126465
+      },
+      {
+        "frame": 1,
+        "protected_pixel_mae": 0.11270879209041595,
+        "background_pixel_mae": 0.3893186151981354
+      },
+      {
+        "frame": 2,
+        "protected_pixel_mae": 0.12056154757738113,
+        "background_pixel_mae": 0.36628732085227966
+      },
+      {
+        "frame": 3,
+        "protected_pixel_mae": 0.11872681230306625,
+        "background_pixel_mae": 0.36243388056755066
+      },
+      {
+        "frame": 4,
+        "protected_pixel_mae": 0.12097945809364319,
+        "background_pixel_mae": 0.35916873812675476
+      }
+    ],
+    "output_png_sha256": {
+      "0000.png": "bbdeb971ca4bbb44e9903e1e2cc2c2f908de94c3f5d7727340a21a5df1fc0ec6",
+      "0001.png": "d586a90bcbf80a0ae19d6176bde270d88184ff48fdae47aa07109ac0806b7969",
+      "0002.png": "52ec7f2c9f3b0ad6be33cb7e77ba42ff7c5037ca9014f01b2b266d6ec64d8ed8",
+      "0003.png": "5fc7a1bb075865ab8e107db3c97118bc318c016e39f94d20552e4cce645e2381",
+      "0004.png": "cac790086a5be338a58734c21f2804ca39d459275c4cf2401bfbb4ff60338f38"
+    },
+    "interpretation": "Raw generated frames; lower protected-region change is desirable. Background change only detects editing, not semantic correctness. No pass/fail threshold calibrated. No copy-back or compositing used. Human review must check product/logo, boundary, scene instruction and temporal consistency."
+  }
+}

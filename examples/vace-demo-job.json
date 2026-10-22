@@ -1,0 +1,14 @@
+{
+  "job_id": "vace-dragon-background-smoke",
+  "source_video": "D:\\career-projects\\data\\SceneEdit\\benchmark\\c70300e817d21c9fdb6bccddecadf8d57e02a0f3\\assets\\examples\\inpainting\\ori_video.mp4",
+  "mask": "D:\\career-projects\\data\\SceneEdit\\benchmark\\c70300e817d21c9fdb6bccddecadf8d57e02a0f3\\assets\\examples\\inpainting\\src_mask.mp4",
+  "mask_semantics": "foreground_white",
+  "product_description": "A turquoise Chinese dragon flying through the air",
+  "target_scene": "a snowy mountain valley with soft daylight",
+  "source_group": "vace-official-inpainting-demo",
+  "data_role": "integration_only",
+  "license": "Apache-2.0",
+  "source_repository": "ali-vilab/VACE-Benchmark",
+  "source_revision": "c70300e817d21c9fdb6bccddecadf8d57e02a0f3",
+  "note": "Official fantasy-video example; not product footage, no commercial efficacy claim."
+}

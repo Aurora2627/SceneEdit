@@ -1,0 +1,4 @@
+SceneEdit application code: Aurora2627, 2026.
+Video editing model: VACE / Wan2.1-VACE, Alibaba Tongyi Lab / Wan team.
+Inference and training engine: ModelScope DiffSynth-Studio, pinned Git submodule.
+Upstream code and weights retain their original authorship and license. See configs/sources.lock.json.
