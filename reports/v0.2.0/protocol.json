@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "width": 448,
+    "height": 256,
+    "num_frames": 17,
+    "fps": 8,
+    "steps": 20,
+    "seed": 42,
+    "cfg_scale": 5.0,
+    "vace_scale": 1.0,
+    "vram_limit_gib": 5.5
+  },
+  "cases": [
+    {
+      "sequence": "car-roundabout",
+      "role": "development"
+    },
+    {
+      "sequence": "car-turn",
+      "role": "heldout_case"
+    }
+  ],
+  "conditions": [
+    "with-reference",
+    "without-reference"
+  ],
+  "controls": "Identical prompt, input frames, edit masks, seed and scheduler steps; only reference-image input changes.",
+  "metrics": "Protected-region pixel MAE and background pixel change are diagnostics, not semantic or commercial acceptance metrics. Human review required.",
+  "prepared_sha256": {
+    "car-roundabout": "9983cd1e9af4b8bc13b75bc903483d441f5ae2495eb3f8a1989ab4a5c6a90c2f",
+    "car-turn": "ebf831c908f082a577803de9bb4161e1b0529664f2e47f6a6b7694946d735ace"
+  },
+  "model_identity_sha256": "49f00061989715c3c00532d40975f35d5e7f9f867ceb910c20b775199b74909d",
+  "converted_identity_sha256": "ad0542726e4319889a95cd4d628aee0c0930a1e23577eb46fc7f37be9dc444cc",
+  "code_sha256": {
+    "src/scenedit/checkpoints.py": "0c9ce00a214091d25188a9b635f6196d263b11c644807deedce0503702956824",
+    "src/scenedit/common.py": "7c328917907d3470951aed96f0400332c62bb34b6af4cbc327c9b69ee569cc76",
+    "src/scenedit/infer.py": "9e6130a3e7e02f28e2fa30b1cab7091a1787e71aadc41ffd413cdc9905ac7301",
+    "src/scenedit/io_backend.py": "1053f58661e009870f6d6e4b9f54362e05a415f8a31f6c322e454bdb514efb12",
+    "src/scenedit/metrics.py": "ccdcbcb64a87667c45d9ec856a7012dc24fc518bb9da19647b247fbf8955fefb",
+    "src/scenedit/prepare.py": "c98f9e7fb619f5c7071bbca4410ffd889ff8cb8d50c52401e00d2873fd8c556a",
+    "src/scenedit/__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+    "configs/profiles.json": "50f373318a37c5992b5d9a8690a70cb513752336e36cf16bd904eb8a91d0c570",
+    "configs/sources.lock.json": "7e7ed2bbc4d2877ca35e52f8e647298eb48416298c0b8de2a4358e5ec9fc685e"
+  }
+}

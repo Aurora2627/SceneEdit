@@ -35,7 +35,7 @@ DAVIS 2017 的 car-roundabout 用于开发，car-turn 用于独立案例检查�
 | pilot | 448×256，17 帧 | 20 | 参考图对比 |
 | quality | 832×480，81 帧 | 50 | 更大显存设备，未运行 |
 
-当前：14 项自动检查通过。最小真实生成测试已完成（约 51.69 秒，峰值显存 4.46 GB）；汽车对比实验进行中，结果尚未产生，未进行 LoRA 训练，也未证明质量提升。
+当前：14 项自动检查通过。最小真实生成测试已完成（约 51.69 秒，峰值显存 4.46 GB）；汽车参考图对比已完成（2 段素材 × 2 种条件，共 4 次，单次约 95–103 秒，峰值显存约 4.46 GiB），未进行 LoRA 训练，尚未证明广泛的质量提升。
 
 运行入口为 scenedit.prepare、scenedit.infer 和 scripts/run_car_baseline.py。作业配置位于 examples/davis-car-roundabout.json 与 examples/davis-car-turn.json。原始数据、权重及运行目录均位于仓库外，避免加入 Git。
 
@@ -46,3 +46,7 @@ DAVIS 2017 的 car-roundabout 用于开发，car-turn 用于独立案例检查�
 ## 来源
 
 生成引擎：[DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)，以 Git 子模块固定版本，保留 Apache-2.0 许可证与 NOTICE。基础模型：[Wan2.1-VACE-1.3B](https://huggingface.co/Wan-AI/Wan2.1-VACE-1.3B)。数据：[DAVIS 2017](https://davischallenge.org/davis2017/code.html)，遵守原始数据使用条件。官方 VACE 样例仅用于接口检查。精确提交及模型版本见 configs/sources.lock.json。
+
+## 最新实验结果（v0.2.0）
+
+四组生成及输入、输出校验全部完成。使用参考图时，两段素材的保留区域像素 MAE 分别约从 0.052900 降至 0.051332、从 0.112433 降至 0.106875；该指标不能替代主体语义保真或完整视频评审。抽查发现车辆细节仍有漂移，当前不能宣称达到广告交付质量。完整协议、数值及限制见 [实验报告](reports/v0.2.0/README.md)。
