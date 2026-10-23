@@ -1,0 +1,417 @@
+{
+  "conditioning_identical_across_seeds": true,
+  "sources_and_references_unchanged": true,
+  "padding_noneditable_for_all_conditions": true,
+  "fingerprints": {
+    "car-roundabout-radius0": [
+      {
+        "source": "ad2136efa37747a450046f1f0c5d8c3023aefd7ded5992dd816b65f9d370f824",
+        "control": "b85763fcd39380560a6d9679798d3121b89670ab184d8f5210b1bc24e4ce7440",
+        "mask": "ef182ebebec11dbc1fe8a3db114098cd3c5b5865fcabbba89d0a818aa0aa9c5b"
+      },
+      {
+        "source": "38deb57a4740bce31b1aae9d7178fbe1d08f668f2eecafeb20d3081ed23cfa59",
+        "control": "bf04dc8228a8b11f5bb7e2540478f31a64b113b12bf7ed1b302705c571a8bd2e",
+        "mask": "e99d61ef614e76b54d2b093d502e62306a448bbf63c4c934e4ec6345d653711b"
+      },
+      {
+        "source": "5261189cb4c5f626527f8dbde9522c2a3c6fe63a419fee182adbe6d2b7dad914",
+        "control": "9e1c2a81690e36c23ae1e0b01d6de558e3edb54f8545b83c1a40185e66130852",
+        "mask": "6d2c455cf519e90d50405c05b417d9dd1a457b94887a53b730ef843c25f3e87f"
+      },
+      {
+        "source": "150365078b492fc96d907618dda32b296983ea5b0c21cbaa4eb20881781c7d9d",
+        "control": "ef577de04e7140255fe63f45c72aad0b708cdc11cae5c7d873600f5c8da5b950",
+        "mask": "199b1dc9e23259eb29c21a66bc4e475ef218b801275bba521a97a96c419273ff"
+      },
+      {
+        "source": "b0522d5b05ab360856a6f7feebb56731aaefc70e9b1272a607751c3a13cc71f7",
+        "control": "545c7f1fceedd2d5e089e5b9f6e4e14b10a402a96d09e5e871c2e2406b670cdc",
+        "mask": "3c8ba557d7aaebd379350aab01ebfe1b0c23d1558c4970d50401c01e53b71dc3"
+      },
+      {
+        "source": "9edf8d467152273776e88944e1593debe498ccc001452c7076d879821892b9a4",
+        "control": "cbb19cc2f5fc6f3dd98fbdda137ad345fc7df1da063e85c0959e8de49ce84c92",
+        "mask": "7dfa3bccf7183e6e08ff3e8ba44efc9fd881d2a0c23399ed5203a6a0cbea71fc"
+      },
+      {
+        "source": "2bd0f5999a207709b60162399d8594d72fd0053b328e8eb15ce42ca45cf25a3f",
+        "control": "86ecd43549b644b1ec280b5ec6f197d0a5506aba647a828e516e132818a6e57c",
+        "mask": "61b54538e404414bae29297f34a8a0946452ef6c811f9159e9626e8f92820ba8"
+      },
+      {
+        "source": "fd129a11550d73f2b92a99d1b76fde1b82d5b65b4b11b7b6910e0e2ff5dee4e5",
+        "control": "4dc46f89da720b98ae04727d4b9579b101ce62592be4528f8fd10c0a30b6a3e6",
+        "mask": "541d6f2f153acda9d6ae10118a0e7f551f315dd507366f8fb7e6e945f6a7de74"
+      },
+      {
+        "source": "94335d1c81c5219b170474c6ce2e0b976f2b35949f295fab13081251a5870b5d",
+        "control": "a1e7f8921a25f4ccaf6b3b3f2d8705a654d024d4760fbd42eaa0326c7fb4ee23",
+        "mask": "8e40186493050d89db0d170444d520546e87fa162b12b286932cae7969e23012"
+      },
+      {
+        "source": "4594f2ad29b639ccc125ae4bc348f9aff9488bc830e2f3ddc61c88efeafe8da5",
+        "control": "89718f61aefc95a2cb151e180b7b557f846e05932f140d6c517d4403736925c8",
+        "mask": "2788cec5760b9b7a4a20223e5c58536767badbcf20504f5e19682e33d549dac6"
+      },
+      {
+        "source": "a1ed7f95ef0cdc927cab89cfdfb5fc12c2b26be353265f2e6786ef171039ab6a",
+        "control": "1ea6d3ade8da64ac8d3f350898ce1fcccb8f1c77d87dd355d5805a2d22a841d9",
+        "mask": "f6957644a8048b6b7a0695f4b1f8da6d80738b0cc66f00ae5842f2cbc5a44990"
+      },
+      {
+        "source": "e4925a1589145c48ca06cecd15d2f80a40d429125479c127e178646b9982984c",
+        "control": "0ecf2c50bd5e004297d47ed5c7219edd68fa0752a49310c09ecc41c12ba1d1dd",
+        "mask": "8752efe7aa05b303f6c6b546fbc06804f5a6e479a64df34102d81481e2a96d12"
+      },
+      {
+        "source": "e75a4ea972c5cee71febd1712c1bd49af876355fc697eaf84c1a8c0619e05da6",
+        "control": "d2e7a4ec08203d404f11e958fae3c4f28b818323911263278ea9802af7dbb559",
+        "mask": "c437617dd3005e287eb3d517afc5739228c85a97eab29ef6f6d7101e7d75ad64"
+      },
+      {
+        "source": "4db6eafab012420f57bc6d2a397401d42e75fdcadd0be77cbf59df34213fb0c9",
+        "control": "d6da5fbf2f2c02c71ba8862f5a4f9b2667cbdfa34941f57e332d3dbd4f4e4ecb",
+        "mask": "6a24a50d421f6dc1b4a063bda82fdbd7a86978bf007172c8b48dd8a2759299c7"
+      },
+      {
+        "source": "9e37713e3b53d8bf189cf6baf88b8c95c52f9ac9e6164caae8c7e689f24116e0",
+        "control": "06eec3d9d6d105b146c35c58f4b3b3c163854322e8d9d9128883d0b2235fe76d",
+        "mask": "cdc61df740bcc6ded498e45962b9c5264942eb491e7458d388eeb038fc50fff3"
+      },
+      {
+        "source": "89160b3b236163cc16173f273b40e658001c816108e35bf272451c7b902a205a",
+        "control": "1e94c62f1d251dc5494866ca388a40ae7d6eefaf499d0a0463fa027dc6a87f48",
+        "mask": "ebf257f755eabcd52142bba39c63b0b8a9ffe74227bbc7866bb800d6f51258c0"
+      },
+      {
+        "source": "a9b1a1bd105c792bbc1e1c0da9721c25dc2286fbd3963ac9230b076a0e2ed6f6",
+        "control": "b47effc20e6b7d79257e3dc9e88782554754ea44b482c3f5b1221e6fc2a7451e",
+        "mask": "c47b87157710f1469ef9621e8d86ef5a30f1c8e798592f4cc4c86ef39ec56825"
+      }
+    ],
+    "car-roundabout-radius3": [
+      {
+        "source": "ad2136efa37747a450046f1f0c5d8c3023aefd7ded5992dd816b65f9d370f824",
+        "control": "37594436b7e785299c59d03d8c72711ba6a3f2c2fabd6c90b6022c57f35aecdc",
+        "mask": "cc889a111fd7be62a1e2f1a1c5032f3409d1bf338527e670ec38ff59749ca710"
+      },
+      {
+        "source": "38deb57a4740bce31b1aae9d7178fbe1d08f668f2eecafeb20d3081ed23cfa59",
+        "control": "0ccd5658ce9ac302f179be2a2c58ea120d8573d45cc264f9d3788133f86bcd26",
+        "mask": "c9e3def250f2bdf0b22d81e345d88d0acc257bb279da3c7030fb8bbbc35d1d48"
+      },
+      {
+        "source": "5261189cb4c5f626527f8dbde9522c2a3c6fe63a419fee182adbe6d2b7dad914",
+        "control": "a9e7c9733bfb8a2eb6ea6537ef1c3c8a63cfda4ba248aff0fdf1a583d5e42c46",
+        "mask": "1dc30344f16dc87289a6d4c3380eaadd7ce4d6f0e2d9dd616f5681388f2cd355"
+      },
+      {
+        "source": "150365078b492fc96d907618dda32b296983ea5b0c21cbaa4eb20881781c7d9d",
+        "control": "647a269a83d6622b535a848103e8c4879442f0e31fc3a8693f0fa4502341bfc2",
+        "mask": "255d4393b11fb7d788c6353bd8d6793cd0bb324d30c0ec824dbe74f52dd29283"
+      },
+      {
+        "source": "b0522d5b05ab360856a6f7feebb56731aaefc70e9b1272a607751c3a13cc71f7",
+        "control": "4fd039286f839625fc1f87858ef77c045b4b4425762c959410ae5bc2605ef4bb",
+        "mask": "a38a65851259add128b93cb5b75712b523bd60e8f7037ff3707858ea1e657682"
+      },
+      {
+        "source": "9edf8d467152273776e88944e1593debe498ccc001452c7076d879821892b9a4",
+        "control": "fd94d5fd9c7b4214ad28a1fad29be692df2fcb6caa2d162c6fd49e09df1fcb08",
+        "mask": "5bb329d9352024f1fff246be6999d4045a6bf03e5961b06b331aa33e5e4a3d51"
+      },
+      {
+        "source": "2bd0f5999a207709b60162399d8594d72fd0053b328e8eb15ce42ca45cf25a3f",
+        "control": "35c6be1a9ba179b46ec8ba3c44bad047d49c85b8534c34ce184c8778b8726fcc",
+        "mask": "95a9a0c9ec986a029cd66a43f4db0fbb3569e5720830275ea572a5c9986df432"
+      },
+      {
+        "source": "fd129a11550d73f2b92a99d1b76fde1b82d5b65b4b11b7b6910e0e2ff5dee4e5",
+        "control": "3e819b9afb358c988181b213ec6cff053c540930962eaee66bf58fb5411a2dcb",
+        "mask": "bab993ad7b02b439d99ca06b43cf09c28b85b81d0be7a1b3a43fc427bf8ab203"
+      },
+      {
+        "source": "94335d1c81c5219b170474c6ce2e0b976f2b35949f295fab13081251a5870b5d",
+        "control": "1a92b6699bbe02ddd2422c875641f71dbf3ecb832d41f5e4dc76e3085af7dca1",
+        "mask": "d416897d9f78b3e9d3691d800bcbaa9b355194973bbf4fcf133386edc8f83a97"
+      },
+      {
+        "source": "4594f2ad29b639ccc125ae4bc348f9aff9488bc830e2f3ddc61c88efeafe8da5",
+        "control": "51a40c404f30377f47368e5512d1cd022e4a63a5c485233955bc236a87b0d065",
+        "mask": "7b22b2db6ee143407b7f432de2003ad3104ab27a78de2bb64de7ed78260d54f3"
+      },
+      {
+        "source": "a1ed7f95ef0cdc927cab89cfdfb5fc12c2b26be353265f2e6786ef171039ab6a",
+        "control": "bf720b99125dbf9e7e584fd52e6aa12fc4ab423f5960dc6c4879a33be0614ea9",
+        "mask": "c20f70910ee8766fc0af1996adc6c68c31bca89efbdac98a1c2f1465c2e44f48"
+      },
+      {
+        "source": "e4925a1589145c48ca06cecd15d2f80a40d429125479c127e178646b9982984c",
+        "control": "c0ced8b646ab0487482130ce8466189bcdc743e881ab1f89163f42a4a67193b7",
+        "mask": "1494c545ba89a8977d9090627ea56c0579371311731a59586f2e26889fadc765"
+      },
+      {
+        "source": "e75a4ea972c5cee71febd1712c1bd49af876355fc697eaf84c1a8c0619e05da6",
+        "control": "8b078bb211ad0a4c6bcc40b89eccad84ad29512bea35c0e7f96b6bb367cfa01b",
+        "mask": "6ab909aff63ccd0a1b6f099c150ca9ac9b89821f06fe4e923bd90e32a9c8727f"
+      },
+      {
+        "source": "4db6eafab012420f57bc6d2a397401d42e75fdcadd0be77cbf59df34213fb0c9",
+        "control": "140c760dc1d3688976c5d1341516bdd4bab2ca6c1746a11fd0932b76a7470299",
+        "mask": "3cd97a8c997703180563c38433040104485db5c1661f91a1d7193a3a94935bae"
+      },
+      {
+        "source": "9e37713e3b53d8bf189cf6baf88b8c95c52f9ac9e6164caae8c7e689f24116e0",
+        "control": "434af7b5651e0d43c67fa3a90c70280bf7246a79a0083dfff53df9b29aa9df79",
+        "mask": "64d4cf4091ea6f2471bd1c4520d7256a613ad64b896eb9e1d09e8cb1bc382456"
+      },
+      {
+        "source": "89160b3b236163cc16173f273b40e658001c816108e35bf272451c7b902a205a",
+        "control": "3aa13b3bb58216222505b920395b8186290b3a61c8af51258762f54237f7652a",
+        "mask": "0328e42e74a487b6565ef59a19d99e394fbdc8dd82641fa6decd83b2f8464c31"
+      },
+      {
+        "source": "a9b1a1bd105c792bbc1e1c0da9721c25dc2286fbd3963ac9230b076a0e2ed6f6",
+        "control": "5d1358ffed5b2cb7b9893324c4cd920f203478e534ebe4a69421b255f58f1506",
+        "mask": "27657c6cecc0430f0392dec92468105151764e3afa8fd646047e55ea64bf374a"
+      }
+    ],
+    "car-turn-radius0": [
+      {
+        "source": "5fa51d5f2578c236898a11d7270d8dde9c8b543c06f2c39e03b967a165f5cb3e",
+        "control": "ba08f367ee46eb5e8a19c84a97fddce72834b623ca389964c4f69352683e1c69",
+        "mask": "3604262974bac00aa8d155814ff788c6bb1e743a818cb67b662ef8044a7da557"
+      },
+      {
+        "source": "70c2ce04e39db0466186e4ab208874d75a21ac041237a71ac890b140192a206b",
+        "control": "8dc370cbee816c9faa22640a16aee554f4534591133c6d659c709e36b9394501",
+        "mask": "c9f35a1f8501ddfa59f2a9e266bc9bdd5e776faa3221f393324506c697c0f2f2"
+      },
+      {
+        "source": "fc5da769c05717ef7edd1efcc79efe49083061226f40589e90dc8846f2283529",
+        "control": "2a3b9ee268cf38504dabbd12a8ee3abe7cc9de1a821bb1c6f07a6eaa81bb8cdd",
+        "mask": "48bce57da674d5b1b9183de6b66413ad5b2dcbb4ae042dcbdcb530715ec37fef"
+      },
+      {
+        "source": "8e45a89bce4f356f155f7bf244c956fc6a24ae01367d733bcb5f4c1446291e3d",
+        "control": "557ad9f6d4e558a8384faaa118fb85dcb1f4ea40966b1651afa45ea1f61469dd",
+        "mask": "ef1b0f9461a64cc0f77f785bda3248ae42e9d7230eb22add068d21587827d980"
+      },
+      {
+        "source": "cc6b092e07a7e68ec0726545794bb8022b89e14ab00fd07e9185e7bc3fa14360",
+        "control": "6af0b86fd20e5c86784973c4c3cc44b08f9c09d3f7263191d1f533a30f3faec9",
+        "mask": "0c8de653f9f2b6d715d6b7d7af0e4487f0e3f6c0fcc39342faee95bdddeb1548"
+      },
+      {
+        "source": "558b82ab0420e7d59e969f5889b504012a33b6be574f916a2b20aa1602bc107a",
+        "control": "e5e9440e1262fd23a3199dc648c13c3ea67aa4dad39eeabd17d9565de5520b37",
+        "mask": "c5fbe0e9b5864ff9ddf5ee35e561d334741ff701c0445e5690ecab0607b850d8"
+      },
+      {
+        "source": "f82b34606248e6412b276bd77783a9088f74d741e0f1fdf6748a378f1f01606a",
+        "control": "243818062da2e20e7d0b11f23aa8d17dffd32305e15cbb9a75f42c4550077b2b",
+        "mask": "24d3c879abdc62bacee4babf8754a44cd7a0989075771c6b043c5c765def5203"
+      },
+      {
+        "source": "532187af8979424cb559926d31d675bd30e39e086bbc5cb39d29f5513e84220a",
+        "control": "712ee73f5d2afbd4cb292b8aaf7e47b9e006bb99e9214557b86cf8a43e412136",
+        "mask": "5dad2b51992b93d74a405b606fbc04a5175802f979d85fe8677cd742f32856c7"
+      },
+      {
+        "source": "0fbda350614fcea8c5924f65050fa3cf18e8ac4d98326e94260e3f5124f540e5",
+        "control": "407c38ffed26ac2352196a4f9acd0f410e654e349d44c247e4d20820c44f7676",
+        "mask": "60c9d18f5bd83b541971f79bfddfe75095e325248a3a6c26d8dcf3a481731a9f"
+      },
+      {
+        "source": "f5643ab7b6278b46228d069174d7c4586185c2d214409e7b3186a6e29c88b2bd",
+        "control": "6518df4745d4509f707765b2a68fff6b326295cd991c4ecefd7b1a6e4ac61fe0",
+        "mask": "cd83bf86aa4a4395c4b93eac84741c8897554127c7d778dc9b8cb0d0fc6385eb"
+      },
+      {
+        "source": "1adfcede41488710e68600c8aa252527089369a75cb45ec7408c5cbf45543faa",
+        "control": "dc2c068846b751c8ab02fe78d865b9ca310bbac9251c613e2a49c5d1d4f7acf7",
+        "mask": "fb7e0f77b35c64646fd016f6f4c1441162512a71bca121dca13f6ecaad5b9c11"
+      },
+      {
+        "source": "26b7b76bb4304781bb94952fa9a04c6140a4507e252146727c430d0dd2e3a831",
+        "control": "a75b6096ff91d8663210113ffd158cbe95c0e63e271510ad63b121d3c8cf1d84",
+        "mask": "18d7e07f2d6f20b031ac1105ddcad9b3c1dfd1c4b00072c5150de08212778d1e"
+      },
+      {
+        "source": "8b235424fbf1908f951f76df93911b2552e9b49a441079f7b12cf02c5514433d",
+        "control": "ecd094ae79bbf3f5b00c0d8a4eaa93d96acad84d59c87391b4c927ceb7336a8e",
+        "mask": "7d4457e516154615b354d4c3c5b46be138cb9011292db9bd8d22629863773306"
+      },
+      {
+        "source": "79dbccb375d0c526124b001dda869b1c0e1aba04eb023c57811e1d5c6361b164",
+        "control": "278e19cc47d8abb454eaea50b33dfeb9458d49401cd715fe3e1edd104d5558d9",
+        "mask": "ef8d8f69ea2d8b2c8fcb87e4ede9d8993a36f1bc9d4d34f42b9e26bfde48e178"
+      },
+      {
+        "source": "c10752ec505b8ee787d941ac5fbfdb97f40351d928d2885ce4ebd3b56591cedc",
+        "control": "3eb8cfdf37cb9cb003aa9c92fe32609b350330bc86b82a40713e5e274a4dc14f",
+        "mask": "ffa7dfacadfa36d7f634420c5ee9c1d209ed3ad66a2ca895d455f69b2d31eb5c"
+      },
+      {
+        "source": "2b104d7566c270c555f2f4e0a6ad1f2c4a9416be3335da2aacbf2169ce772572",
+        "control": "5bae1387aef97355f7f64b9e7f55b97aac6d34f69101ae0ceeb50599bb4d1aa3",
+        "mask": "6393674cbe13fbe33870867cc5aab33f74861f721092f103a60753825de232ac"
+      },
+      {
+        "source": "e3692609dbcb060964fbb7c14e25ef8ee3e20ae002312f57de3940ce780d9b26",
+        "control": "08b089fd209e20cb5d5fb6620f9f9cb05b68ea223ea257beec6d800c7da0ab16",
+        "mask": "21a9d9e14bb515b611eb572c5d99aa0b0b949e8fa5eab5ed11dbd83657c9f9d8"
+      }
+    ],
+    "car-turn-radius3": [
+      {
+        "source": "5fa51d5f2578c236898a11d7270d8dde9c8b543c06f2c39e03b967a165f5cb3e",
+        "control": "349fc902f0d42d1e75dd11f3bce942384c544dad8f9f9e2f5fed7799d674c2ee",
+        "mask": "b0a00c635d54e683ba767126effd9cadd42150ccb033a5354898662d481c4090"
+      },
+      {
+        "source": "70c2ce04e39db0466186e4ab208874d75a21ac041237a71ac890b140192a206b",
+        "control": "068b499d0ab96656902b1f99ebe59da445aebec025c923f37e395163b0fbc3af",
+        "mask": "239443e2ca8a84290bb47351bc8ab1799c9890b7e2a2ed5afd9ff837e208d955"
+      },
+      {
+        "source": "fc5da769c05717ef7edd1efcc79efe49083061226f40589e90dc8846f2283529",
+        "control": "e058899ced6b2f3f93cb82cf7780e85372b09bef52032546c5341f182ded84ba",
+        "mask": "5e731c3dec12790b58e53a90ef9ddf752f9e074fa94d4080f8af0ba98e3a165d"
+      },
+      {
+        "source": "8e45a89bce4f356f155f7bf244c956fc6a24ae01367d733bcb5f4c1446291e3d",
+        "control": "028421f7e3922d32530ba0e7ab0614cc0adfac45618f1992caf7acffcfe46086",
+        "mask": "145f2d40c1e0d555ce9d68593c69cfe0547e2663ab83df3c52fa53b7c5827025"
+      },
+      {
+        "source": "cc6b092e07a7e68ec0726545794bb8022b89e14ab00fd07e9185e7bc3fa14360",
+        "control": "d6bd15720ef03c393d297e6487f2b1e435ab764952e01192842817ff02d63df3",
+        "mask": "50fc4c97b134553b754f69086733b1ffa49d64abd6c10b186c47aec9e6b60d7d"
+      },
+      {
+        "source": "558b82ab0420e7d59e969f5889b504012a33b6be574f916a2b20aa1602bc107a",
+        "control": "6441e8b758f545435e3da52fd1d58a65bd9b5f33549728e37a019769a55f4a70",
+        "mask": "d7932c27c8d182379b20f6af4f583464bba5029353b8d8bcb9495ec19b9fdf61"
+      },
+      {
+        "source": "f82b34606248e6412b276bd77783a9088f74d741e0f1fdf6748a378f1f01606a",
+        "control": "13b2a1fcbb103dd231e675b104312220875fea0dc859a7d964985f6f5c5e19ab",
+        "mask": "3735a70270aed636e2f4612ec50464346a798fd0ddc0b6551cfa1ba355ba964f"
+      },
+      {
+        "source": "532187af8979424cb559926d31d675bd30e39e086bbc5cb39d29f5513e84220a",
+        "control": "82cb76a3e22b50480e27d60d4a4afd159829b7db2abcf4f21aad84744263b123",
+        "mask": "458771233c43f334f6559f5f707912b3824589452ae11621ddd46312b4934545"
+      },
+      {
+        "source": "0fbda350614fcea8c5924f65050fa3cf18e8ac4d98326e94260e3f5124f540e5",
+        "control": "d9cffe8035f613833847cbe2f8b9166f20a0791c129cf8da50fe48a9cc523409",
+        "mask": "e055caea97e8f7ebfb8f4b430684995c0988ea84dc68bdd925b96a470eff5c62"
+      },
+      {
+        "source": "f5643ab7b6278b46228d069174d7c4586185c2d214409e7b3186a6e29c88b2bd",
+        "control": "06ee64cad51bc269c247a7ec209076e31a0df987dc69871611a6cc513f209de9",
+        "mask": "b28b6b2800092f4efa4889cbc325e64aa3b7966fe8c2618cfd7ac7be40138e8e"
+      },
+      {
+        "source": "1adfcede41488710e68600c8aa252527089369a75cb45ec7408c5cbf45543faa",
+        "control": "f6f75e9f8c57cd6c87916a48fe0137e385896da16d3b11030d3589daf02bb88d",
+        "mask": "cd8089b3fa22ccf3a268ab084f810842ab690ff2893e690ef9c87dad748af6e8"
+      },
+      {
+        "source": "26b7b76bb4304781bb94952fa9a04c6140a4507e252146727c430d0dd2e3a831",
+        "control": "d02a300d9ef9d49160b643b3f837303e561f7cd9584dc26b5a3d0df387748b4d",
+        "mask": "cfcd593aa78b5122e2b64b3df3d1dfa2198f77880c904ff28970d0919fe588b4"
+      },
+      {
+        "source": "8b235424fbf1908f951f76df93911b2552e9b49a441079f7b12cf02c5514433d",
+        "control": "80433aafe5ba60a71b660ddf4f14028c2d48c58799a044caf5d8b128327a6da3",
+        "mask": "5a052a1ca878ffb758aaa874cbfc041c15f2da9aea70790595ce4296cc35af83"
+      },
+      {
+        "source": "79dbccb375d0c526124b001dda869b1c0e1aba04eb023c57811e1d5c6361b164",
+        "control": "5c074bc945b0c059428f6287ce890fb682bbb58a6e4f8b189d770f5947dd01c4",
+        "mask": "781e416e370b41078d8828406846433f4b49aac7a8f801dc19a7ed67b4c7e656"
+      },
+      {
+        "source": "c10752ec505b8ee787d941ac5fbfdb97f40351d928d2885ce4ebd3b56591cedc",
+        "control": "80b201a37fb51ca45264c355d71fcff80c00f3444d67bca13c03996b5dfd95ab",
+        "mask": "336a81bdfcc75c64a83eadeb75baa0d39c2f5f38fbe38aa3804b9da28edeae47"
+      },
+      {
+        "source": "2b104d7566c270c555f2f4e0a6ad1f2c4a9416be3335da2aacbf2169ce772572",
+        "control": "63324f0616ffcf47db57e4df2a9b09d61a2d0253089d362cfd5b5f52a61f7056",
+        "mask": "262ed2207997404814fe1a404b49b1d69d113ff204bb3c2124467910708c8ddc"
+      },
+      {
+        "source": "e3692609dbcb060964fbb7c14e25ef8ee3e20ae002312f57de3940ce780d9b26",
+        "control": "092cd98e062ce03a76ff1f9e3464bbe5510288e24546a8a3696f1342fa73f76f",
+        "mask": "6af03b25ac4bbee6b6edba4b99925fae5f54683a0c0372c193cacb8565801a5b"
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "case": "car-roundabout",
+      "role": "development_new_seed",
+      "seed": 7,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+      "radius": 0,
+      "name": "car-roundabout-seed7-radius0",
+      "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-roundabout-seed7-radius0",
+      "prepared_sha256": "c0b39cd5872fdd95e435d41fe8032cf011ead3a03df44624f79a8a8366557605"
+    },
+    {
+      "case": "car-roundabout",
+      "role": "development_new_seed",
+      "seed": 7,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+      "radius": 3,
+      "name": "car-roundabout-seed7-radius3",
+      "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-roundabout-seed7-radius3",
+      "prepared_sha256": "35102f47c474a2cbf0eb1ec08e710d51bf806759784143c61c02311181fdb371"
+    },
+    {
+      "case": "car-roundabout",
+      "role": "development_new_seed",
+      "seed": 123,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+      "radius": 0,
+      "name": "car-roundabout-seed123-radius0",
+      "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-roundabout-seed123-radius0",
+      "prepared_sha256": "06e4bd269f08aeef225c111d1d75bdddf7c9527597efcb14a9e050c071509d24"
+    },
+    {
+      "case": "car-roundabout",
+      "role": "development_new_seed",
+      "seed": 123,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+      "radius": 3,
+      "name": "car-roundabout-seed123-radius3",
+      "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-roundabout-seed123-radius3",
+      "prepared_sha256": "a9e76afc07e52c25901e2b1d4f56b30f3470eb49ba9e4e645f2c0a78931d7657"
+    },
+    {
+      "case": "car-turn",
+      "role": "independent_case",
+      "seed": 42,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-turn/prepared-pilot",
+      "radius": 0,
+      "name": "car-turn-seed42-radius0",
+      "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-turn-seed42-radius0",
+      "prepared_sha256": "ccdf3ae4c3b561b5c7ef6332fff7afdd90602e4d862b412d3cdd43954bbd3902"
+    },
+    {
+      "case": "car-turn",
+      "role": "independent_case",
+      "seed": 42,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-turn/prepared-pilot",
+      "radius": 3,
+      "name": "car-turn-seed42-radius3",
+      "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-turn-seed42-radius3",
+      "prepared_sha256": "5997d7559c414342a3ea45e1add94f28d0f6f542bfa746a51c4951f2842ee9c7"
+    }
+  ]
+}

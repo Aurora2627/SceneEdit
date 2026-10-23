@@ -1,0 +1,95 @@
+{
+  "mean": {
+    "foreground_pixel_mae": 0.04825659227721831,
+    "boundary_pixel_mae": 0.12131976905991049,
+    "far_background_pixel_change": 0.292196801480125
+  },
+  "per_frame": [
+    {
+      "foreground_pixel_mae": 0.03686239942908287,
+      "boundary_pixel_mae": 0.1002398133277893,
+      "far_background_pixel_change": 0.2808692455291748
+    },
+    {
+      "foreground_pixel_mae": 0.04974909499287605,
+      "boundary_pixel_mae": 0.11185142397880554,
+      "far_background_pixel_change": 0.29013296961784363
+    },
+    {
+      "foreground_pixel_mae": 0.04966515675187111,
+      "boundary_pixel_mae": 0.12192639708518982,
+      "far_background_pixel_change": 0.2909582853317261
+    },
+    {
+      "foreground_pixel_mae": 0.041323188692331314,
+      "boundary_pixel_mae": 0.10557088255882263,
+      "far_background_pixel_change": 0.2849733531475067
+    },
+    {
+      "foreground_pixel_mae": 0.04617680609226227,
+      "boundary_pixel_mae": 0.10950730741024017,
+      "far_background_pixel_change": 0.28698503971099854
+    },
+    {
+      "foreground_pixel_mae": 0.05057378485798836,
+      "boundary_pixel_mae": 0.1187402606010437,
+      "far_background_pixel_change": 0.29645445942878723
+    },
+    {
+      "foreground_pixel_mae": 0.04677858576178551,
+      "boundary_pixel_mae": 0.11971442401409149,
+      "far_background_pixel_change": 0.3053083121776581
+    },
+    {
+      "foreground_pixel_mae": 0.03837577626109123,
+      "boundary_pixel_mae": 0.10981990396976471,
+      "far_background_pixel_change": 0.3057500720024109
+    },
+    {
+      "foreground_pixel_mae": 0.045348379760980606,
+      "boundary_pixel_mae": 0.11253420263528824,
+      "far_background_pixel_change": 0.30083781480789185
+    },
+    {
+      "foreground_pixel_mae": 0.04790841042995453,
+      "boundary_pixel_mae": 0.11973457783460617,
+      "far_background_pixel_change": 0.29206982254981995
+    },
+    {
+      "foreground_pixel_mae": 0.04657177999615669,
+      "boundary_pixel_mae": 0.12294553220272064,
+      "far_background_pixel_change": 0.2902717888355255
+    },
+    {
+      "foreground_pixel_mae": 0.04205644130706787,
+      "boundary_pixel_mae": 0.11601701378822327,
+      "far_background_pixel_change": 0.2883191704750061
+    },
+    {
+      "foreground_pixel_mae": 0.05417630448937416,
+      "boundary_pixel_mae": 0.1306939274072647,
+      "far_background_pixel_change": 0.29461154341697693
+    },
+    {
+      "foreground_pixel_mae": 0.06000971794128418,
+      "boundary_pixel_mae": 0.14485105872154236,
+      "far_background_pixel_change": 0.29629242420196533
+    },
+    {
+      "foreground_pixel_mae": 0.05615510419011116,
+      "boundary_pixel_mae": 0.1392090618610382,
+      "far_background_pixel_change": 0.2909283936023712
+    },
+    {
+      "foreground_pixel_mae": 0.05038630962371826,
+      "boundary_pixel_mae": 0.1360739916563034,
+      "far_background_pixel_change": 0.28684553503990173
+    },
+    {
+      "foreground_pixel_mae": 0.05824482813477516,
+      "boundary_pixel_mae": 0.14300629496574402,
+      "far_background_pixel_change": 0.28573739528656006
+    }
+  ],
+  "definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion."
+}

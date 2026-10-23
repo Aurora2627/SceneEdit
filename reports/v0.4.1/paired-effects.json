@@ -1,0 +1,26 @@
+[
+  {
+    "case": "car-roundabout",
+    "seed": 7,
+    "baseline_foreground_mae": 0.05179287734277108,
+    "candidate_foreground_mae": 0.04825659227721831,
+    "absolute_delta_candidate_minus_baseline": -0.0035362850655527717,
+    "relative_reduction_percent": 6.8277439813765115
+  },
+  {
+    "case": "car-roundabout",
+    "seed": 123,
+    "baseline_foreground_mae": 0.05303036509191289,
+    "candidate_foreground_mae": 0.04960986949941691,
+    "absolute_delta_candidate_minus_baseline": -0.0034204955924959785,
+    "relative_reduction_percent": 6.450069854445718
+  },
+  {
+    "case": "car-turn",
+    "seed": 42,
+    "baseline_foreground_mae": 0.10775429930757074,
+    "candidate_foreground_mae": 0.09935321702676661,
+    "absolute_delta_candidate_minus_baseline": -0.008401082280804134,
+    "relative_reduction_percent": 7.796517015830922
+  }
+]

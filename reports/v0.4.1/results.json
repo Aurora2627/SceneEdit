@@ -1,0 +1,122 @@
+[
+  {
+    "case": "car-roundabout",
+    "role": "development_new_seed",
+    "seed": 7,
+    "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+    "radius": 0,
+    "name": "car-roundabout-seed7-radius0",
+    "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-roundabout-seed7-radius0",
+    "prepared_sha256": "c0b39cd5872fdd95e435d41fe8032cf011ead3a03df44624f79a8a8366557605",
+    "metrics": {
+      "foreground_pixel_mae": 0.05179287734277108,
+      "boundary_pixel_mae": 0.20124429990263545,
+      "far_background_pixel_change": 0.3313366595436545
+    },
+    "seconds": 101.0889632999897,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "1f0bdbe957c4e8619b670844616d46a71b84b91caec9ecf8e8a622a4ebf4c283",
+    "model_identity_sha256": "49f00061989715c3c00532d40975f35d5e7f9f867ceb910c20b775199b74909d",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\car-roundabout-seed7-radius0"
+  },
+  {
+    "case": "car-roundabout",
+    "role": "development_new_seed",
+    "seed": 7,
+    "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+    "radius": 3,
+    "name": "car-roundabout-seed7-radius3",
+    "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-roundabout-seed7-radius3",
+    "prepared_sha256": "35102f47c474a2cbf0eb1ec08e710d51bf806759784143c61c02311181fdb371",
+    "metrics": {
+      "foreground_pixel_mae": 0.04825659227721831,
+      "boundary_pixel_mae": 0.12131976905991049,
+      "far_background_pixel_change": 0.292196801480125
+    },
+    "seconds": 101.64534870011266,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "d0e00a7de5dbd72dbf70fb0195a64f34d24b97d9226b2b72690c2b91bd5f1079",
+    "model_identity_sha256": "49f00061989715c3c00532d40975f35d5e7f9f867ceb910c20b775199b74909d",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\car-roundabout-seed7-radius3"
+  },
+  {
+    "case": "car-roundabout",
+    "role": "development_new_seed",
+    "seed": 123,
+    "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+    "radius": 0,
+    "name": "car-roundabout-seed123-radius0",
+    "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-roundabout-seed123-radius0",
+    "prepared_sha256": "06e4bd269f08aeef225c111d1d75bdddf7c9527597efcb14a9e050c071509d24",
+    "metrics": {
+      "foreground_pixel_mae": 0.05303036509191289,
+      "boundary_pixel_mae": 0.1944484640570248,
+      "far_background_pixel_change": 0.34867845212712006
+    },
+    "seconds": 101.272583700018,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "6cf36876d6ef2ebbb3b35f93d1fb0feeffeba6f99a72b4e9f66ee05f33576bed",
+    "model_identity_sha256": "49f00061989715c3c00532d40975f35d5e7f9f867ceb910c20b775199b74909d",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\car-roundabout-seed123-radius0"
+  },
+  {
+    "case": "car-roundabout",
+    "role": "development_new_seed",
+    "seed": 123,
+    "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+    "radius": 3,
+    "name": "car-roundabout-seed123-radius3",
+    "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-roundabout-seed123-radius3",
+    "prepared_sha256": "a9e76afc07e52c25901e2b1d4f56b30f3470eb49ba9e4e645f2c0a78931d7657",
+    "metrics": {
+      "foreground_pixel_mae": 0.04960986949941691,
+      "boundary_pixel_mae": 0.1426812980104895,
+      "far_background_pixel_change": 0.34099430547041054
+    },
+    "seconds": 102.07988919992931,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "826e4d9ef66d1ac6b9a807f1aed0ee5a79a582dd7b8aaabe56a17f8d5922120e",
+    "model_identity_sha256": "49f00061989715c3c00532d40975f35d5e7f9f867ceb910c20b775199b74909d",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\car-roundabout-seed123-radius3"
+  },
+  {
+    "case": "car-turn",
+    "role": "independent_case",
+    "seed": 42,
+    "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-turn/prepared-pilot",
+    "radius": 0,
+    "name": "car-turn-seed42-radius0",
+    "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-turn-seed42-radius0",
+    "prepared_sha256": "ccdf3ae4c3b561b5c7ef6332fff7afdd90602e4d862b412d3cdd43954bbd3902",
+    "metrics": {
+      "foreground_pixel_mae": 0.10775429930757074,
+      "boundary_pixel_mae": 0.18574176290455988,
+      "far_background_pixel_change": 0.294728300150703
+    },
+    "seconds": 102.96045569994021,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "e20fc02d58a8dc7d37e8a3b7bda5de1d898adefdbddef6f13b7275904c94aaef",
+    "model_identity_sha256": "49f00061989715c3c00532d40975f35d5e7f9f867ceb910c20b775199b74909d",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\car-turn-seed42-radius0"
+  },
+  {
+    "case": "car-turn",
+    "role": "independent_case",
+    "seed": 42,
+    "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-turn/prepared-pilot",
+    "radius": 3,
+    "name": "car-turn-seed42-radius3",
+    "prepared_variant": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\prepared\\car-turn-seed42-radius3",
+    "prepared_sha256": "5997d7559c414342a3ea45e1add94f28d0f6f542bfa746a51c4951f2842ee9c7",
+    "metrics": {
+      "foreground_pixel_mae": 0.09935321702676661,
+      "boundary_pixel_mae": 0.14407312782371745,
+      "far_background_pixel_change": 0.30168923209695253
+    },
+    "seconds": 101.17616570007522,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "5da65f0e592ce8a5194868fe084ba2999f4cb481e5385a21650dc60d2f97e3dc",
+    "model_identity_sha256": "49f00061989715c3c00532d40975f35d5e7f9f867ceb910c20b775199b74909d",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-robustness-v1\\car-turn-seed42-radius3"
+  }
+]
