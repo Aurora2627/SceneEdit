@@ -1,0 +1,30 @@
+{
+  "output": "D:/career-projects/runs/SceneEdit/20261023-robustness-v1",
+  "model_dir": "D:/career-projects/models/SceneEdit/574e6a744642ce3bee319afc31496b88bde8aac4",
+  "scale": 1,
+  "radii": [
+    0,
+    3
+  ],
+  "pairs": [
+    {
+      "case": "car-roundabout",
+      "role": "development_new_seed",
+      "seed": 7,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot"
+    },
+    {
+      "case": "car-roundabout",
+      "role": "development_new_seed",
+      "seed": 123,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot"
+    },
+    {
+      "case": "car-turn",
+      "role": "independent_case",
+      "seed": 42,
+      "prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-turn/prepared-pilot"
+    }
+  ],
+  "scope": "Candidate fixed from development seed42 before this evaluation. car-turn was previously inspected, so this is independent-case validation, not a blind benchmark. No parameter selection from these results."
+}
