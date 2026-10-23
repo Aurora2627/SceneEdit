@@ -10,6 +10,7 @@ def main():
     ap=argparse.ArgumentParser();ap.add_argument('--config',type=Path,required=True);a=ap.parse_args();config=read(a.config)
     gpu_guard();base=Path(config['base_prepared']);baseline=Path(config['baseline_run']);out=Path(config['output']);meta=verify_inputs(base)
     assert 'car-roundabout' in str(base)
+    if any(item.get('reuse_baseline') for item in config['conditions']):raise ValueError('Historical baseline reuse disabled: all conditions must share the padding policy')
     out.mkdir(parents=True,exist_ok=False);state={'status':'preparing','started':datetime.datetime.now().astimezone().isoformat(),'finished_runs':0};save(out/'status.json',state)
     try:
         protocol=dict(config,config_sha256=sha(a.config),base_prepared_sha256=sha(base/'prepared.json'),code=snapshot(out),scope='Development sequence only; car-turn not used for tuning. No trained weights, no compositing. All reference images, prompts, seeds and scheduler settings fixed.');save(out/'protocol.json',protocol);shutil.copyfile(__file__,out/'runner.py')

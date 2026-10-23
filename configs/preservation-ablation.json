@@ -2,13 +2,12 @@
   "base_prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
   "baseline_run": "D:/career-projects/runs/SceneEdit/20261022-car-background/baseline-v1/car-roundabout-with-reference",
   "model_dir": "D:/career-projects/models/SceneEdit/574e6a744642ce3bee319afc31496b88bde8aac4",
-  "output": "D:/career-projects/runs/SceneEdit/20261023-preservation-v1",
+  "output": "D:/career-projects/runs/SceneEdit/20261023-preservation-v2",
   "conditions": [
     {
       "name": "scale1-radius0",
       "scale": 1,
-      "radius": 0,
-      "reuse_baseline": true
+      "radius": 0
     },
     {
       "name": "scale1.3-radius0",
@@ -25,5 +24,6 @@
       "scale": 1.3,
       "radius": 3
     }
-  ]
+  ],
+  "padding_policy": "noneditable letterbox for all four conditions"
 }
