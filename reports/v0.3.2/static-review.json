@@ -1,0 +1,18 @@
+{
+  "reviewer": "assistant",
+  "type": "static contact sheet inspection, not full-video human evaluation",
+  "frames": [
+    0,
+    8,
+    16
+  ],
+  "review_sheet_sha256": "d85f6003cf980bee959ee97d8ceb6eee49762e953cf2597081d74bf5c05698fb",
+  "candidate": "scale1-radius3",
+  "foreground_mae_relative_reduction_percent": 5.433763488330633,
+  "observations": [
+    "Coastal backgrounds and approximate vehicle poses are present in the sampled frames.",
+    "Vehicle contours and fine details still change; bright edge artifacts are visible.",
+    "The scale1.3-radius3 samples have substantial differences in distant scenery and illumination; full temporal review is needed."
+  ],
+  "selection": "Candidate for cross-seed and independent-case validation only; no production default or training claim."
+}
