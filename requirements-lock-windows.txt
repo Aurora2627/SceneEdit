@@ -35,8 +35,7 @@ PyYAML==6.0.3
 regex==2026.9.29
 requests==2.34.2
 safetensors==0.8.0
-# Editable Git install with no remote (scenedit==0.1.0)
--e d:\career-projects\sceneedit
+-e git+https://github.com/Aurora2627/SceneEdit.git@50f72274037c59e7f022615cd70f8945eab34be8#egg=scenedit
 scipy==1.16.2
 sentencepiece==0.2.2
 six==1.17.0

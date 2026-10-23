@@ -1,0 +1,45 @@
+{
+  "base_prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+  "baseline_run": "D:/career-projects/runs/SceneEdit/20261022-car-background/baseline-v1/car-roundabout-with-reference",
+  "model_dir": "D:/career-projects/models/SceneEdit/574e6a744642ce3bee319afc31496b88bde8aac4",
+  "output": "D:/career-projects/runs/SceneEdit/20261023-preservation-v1",
+  "conditions": [
+    {
+      "name": "scale1-radius0",
+      "scale": 1,
+      "radius": 0,
+      "reuse_baseline": true
+    },
+    {
+      "name": "scale1.3-radius0",
+      "scale": 1.3,
+      "radius": 0
+    },
+    {
+      "name": "scale1-radius3",
+      "scale": 1,
+      "radius": 3
+    },
+    {
+      "name": "scale1.3-radius3",
+      "scale": 1.3,
+      "radius": 3
+    }
+  ],
+  "config_sha256": "0c94a3b3b2ee3d731017d3ce76ec24800f2e0bfded58531701c2b7b7f5357379",
+  "base_prepared_sha256": "9983cd1e9af4b8bc13b75bc903483d441f5ae2495eb3f8a1989ab4a5c6a90c2f",
+  "code": {
+    "src/scenedit/checkpoints.py": "0c9ce00a214091d25188a9b635f6196d263b11c644807deedce0503702956824",
+    "src/scenedit/common.py": "7c328917907d3470951aed96f0400332c62bb34b6af4cbc327c9b69ee569cc76",
+    "src/scenedit/infer.py": "9e6130a3e7e02f28e2fa30b1cab7091a1787e71aadc41ffd413cdc9905ac7301",
+    "src/scenedit/io_backend.py": "736e4de6bfc3965d486c4e4eac0d3f5343bab08306c1e8cb5cacd750d173ae9e",
+    "src/scenedit/metrics.py": "ccdcbcb64a87667c45d9ec856a7012dc24fc518bb9da19647b247fbf8955fefb",
+    "src/scenedit/prepare.py": "c98f9e7fb619f5c7071bbca4410ffd889ff8cb8d50c52401e00d2873fd8c556a",
+    "src/scenedit/preservation.py": "50f8af72e94f429d6eadd5b3475cd372e34bd09af0c6538bc3c029934a4c25e1",
+    "src/scenedit/__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+    "configs/preservation-ablation.json": "0c94a3b3b2ee3d731017d3ce76ec24800f2e0bfded58531701c2b7b7f5357379",
+    "configs/profiles.json": "50f373318a37c5992b5d9a8690a70cb513752336e36cf16bd904eb8a91d0c570",
+    "configs/sources.lock.json": "7e7ed2bbc4d2877ca35e52f8e647298eb48416298c0b8de2a4358e5ec9fc685e"
+  },
+  "scope": "Development sequence only; car-turn not used for tuning. No trained weights, no compositing. All reference images, prompts, seeds and scheduler settings fixed."
+}

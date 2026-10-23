@@ -1,0 +1,26 @@
+test_pread_preserves_bfloat16_under_inference_mode (test_io_backend.IOBackendTests.test_pread_preserves_bfloat16_under_inference_mode) ... ok
+test_windows_checksum_keys_and_tamper_rejection (test_metrics_integration.MetricIntegrationTests.test_windows_checksum_keys_and_tamper_rejection) ... ok
+test_explicit_semantics (test_pipeline.PipelineTests.test_explicit_semantics) ... ok
+test_foreground_white_inverts_for_vace (test_pipeline.PipelineTests.test_foreground_white_inverts_for_vace) ... ok
+test_gray_only_edit_pixels (test_pipeline.PipelineTests.test_gray_only_edit_pixels) ... ok
+test_letterbox_geometry_and_padding (test_pipeline.PipelineTests.test_letterbox_geometry_and_padding) ... ok
+test_region_metric_detects_background_only_change (test_pipeline.PipelineTests.test_region_metric_detects_background_only_change) ... ok
+test_shape_guard (test_pipeline.PipelineTests.test_shape_guard) ... ok
+test_timed_mask_prepare_and_no_overwrite (test_pipeline.PipelineTests.test_timed_mask_prepare_and_no_overwrite) ... JOB_PREPARED test-fixture 5 smoke
+ok
+test_unchanged_is_not_edit_success (test_pipeline.PipelineTests.test_unchanged_is_not_edit_success) ... ok
+test_bad_radius_rejected (test_preservation.PreservationTests.test_bad_radius_rejected) ... ok
+test_fixed_regions_exclude_padding_and_do_not_move_with_variant (test_preservation.PreservationTests.test_fixed_regions_exclude_padding_and_do_not_move_with_variant) ... ok
+test_protection_expands_and_padding_stays_noneditable (test_preservation.PreservationTests.test_protection_expands_and_padding_stays_noneditable) ... ok
+test_zero_radius_and_kept_pixels (test_preservation.PreservationTests.test_zero_radius_and_kept_pixels) ... ok
+test_full_download_fallback_rejected (test_resources.ResourceTests.test_full_download_fallback_rejected) ... ok
+test_lossless_checkpoint_split (test_resources.ResourceTests.test_lossless_checkpoint_split) ... SHARD_VERIFIED tiny.pth weights-000.safetensors 1
+SHARD_VERIFIED tiny.pth weights-001.safetensors 1
+ok
+test_range_seek_and_block_reuse (test_resources.ResourceTests.test_range_seek_and_block_reuse) ... ok
+test_wrong_original_checkpoint_rejected (test_resources.ResourceTests.test_wrong_original_checkpoint_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 60.366s
+
+OK

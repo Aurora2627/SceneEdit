@@ -1,0 +1,63 @@
+[
+  {
+    "name": "scale1-radius0",
+    "scale": 1,
+    "radius": 0,
+    "reuse_baseline": true,
+    "metrics": {
+      "foreground_pixel_mae": 0.05133152271018309,
+      "boundary_pixel_mae": 0.1826360707773882,
+      "far_background_pixel_change": 0.33122000448844013
+    },
+    "seconds": 102.79232670000056,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "d3b178bf80cb055c33cd22bfce78cc5aa763237431d3fd1da11a79ac978291d7",
+    "fixed_definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion.",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261022-car-background\\baseline-v1\\car-roundabout-with-reference"
+  },
+  {
+    "name": "scale1.3-radius0",
+    "scale": 1.3,
+    "radius": 0,
+    "metrics": {
+      "foreground_pixel_mae": 0.052609196480582744,
+      "boundary_pixel_mae": 0.1718542532009237,
+      "far_background_pixel_change": 0.3244326237369986
+    },
+    "seconds": 112.25064360001124,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "e5b35cae511fb1fac4bddc54a06082cd2442043f5effa06154b3e650d407e0d5",
+    "fixed_definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion.",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-preservation-v1\\scale1.3-radius0"
+  },
+  {
+    "name": "scale1-radius3",
+    "scale": 1,
+    "radius": 3,
+    "metrics": {
+      "foreground_pixel_mae": 0.04881740186144324,
+      "boundary_pixel_mae": 0.13400091274696238,
+      "far_background_pixel_change": 0.3197463084669674
+    },
+    "seconds": 100.49010419996921,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "d3a1c320466ce4dcb8d0484dd773bcf0cb177a28f5f695c1e6f1401bff5d99c9",
+    "fixed_definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion.",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-preservation-v1\\scale1-radius3"
+  },
+  {
+    "name": "scale1.3-radius3",
+    "scale": 1.3,
+    "radius": 3,
+    "metrics": {
+      "foreground_pixel_mae": 0.0520613213234088,
+      "boundary_pixel_mae": 0.1276168928426855,
+      "far_background_pixel_change": 0.2577882286380319
+    },
+    "seconds": 101.3608372999588,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "9aa713a4edc1f601e6cedd94dd75122c913230ae80fbe97ebfc986bdf2712ec7",
+    "fixed_definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion.",
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-preservation-v1\\scale1.3-radius3"
+  }
+]
