@@ -1,0 +1,47 @@
+[
+  {
+    "case": "car-roundabout",
+    "seed": 7,
+    "role": "development_new_seed",
+    "edge_gradient_mae": {
+      "baseline": 0.02257714869314734,
+      "candidate": 0.02171686405227394,
+      "reduction_percent": 3.8104220004296385
+    },
+    "temporal_residual_mae": {
+      "baseline": 0.053267485016331606,
+      "candidate": 0.051641701631256254,
+      "reduction_percent": 3.052112155430078
+    }
+  },
+  {
+    "case": "car-roundabout",
+    "seed": 123,
+    "role": "development_new_seed",
+    "edge_gradient_mae": {
+      "baseline": 0.02298288325725481,
+      "candidate": 0.021902337696536302,
+      "reduction_percent": 4.701523079692023
+    },
+    "temporal_residual_mae": {
+      "baseline": 0.05397874053971396,
+      "candidate": 0.05237782674513819,
+      "reduction_percent": 2.965822800919045
+    }
+  },
+  {
+    "case": "car-turn",
+    "seed": 42,
+    "role": "independent_case",
+    "edge_gradient_mae": {
+      "baseline": 0.044984874807215885,
+      "candidate": 0.042772686822274066,
+      "reduction_percent": 4.917626189740934
+    },
+    "temporal_residual_mae": {
+      "baseline": 0.09018339811146639,
+      "candidate": 0.08599681073382497,
+      "reduction_percent": 4.642303866690424
+    }
+  }
+]

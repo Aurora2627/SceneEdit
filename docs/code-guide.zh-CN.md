@@ -33,3 +33,9 @@ VS Code 工程配置保留专用解释器，并添加 src 和 vendor/DiffSynth-S
 ## 本轮维护的边界
 
 v0.5.0 只展开压缩语句、统一排版并增加说明。31 个项目 Python 文件在维护前后 AST 一致；22 项原有测试通过，六组保存输出的逐帧指标复算在 1e-7 绝对容差内一致。此次没有新增训练，也没有重新进行 GPU 生成。验证记录见 reports/v0.5.0。
+
+## 时序诊断入口（v0.6.0）
+
+先阅读 src/scenedit/diagnostics.py 中的 warp、flow_consistency_mask 和 temporal_error：后向光流的方向是“当前像素 → 上一帧坐标”，先对齐再比较时序变化，避免把主体运动全部算成闪烁。edge_error 使用车身内部亮度梯度，不把背景变化混入车身结构误差。
+
+scripts/evaluate_temporal.py 校验原始输入与保存输出，估计并复用原视频光流，在新运行目录保存逐帧指标、有效点覆盖、光流和源码快照。scripts/export_temporal_report.py 校验同一配对使用相同输入、光流和对应点后导出报告。无对应点返回 null；稳定颜色偏差也可能有零时序残差，不能把该指标单独当作质量分数。

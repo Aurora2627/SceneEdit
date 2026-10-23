@@ -1,0 +1,18 @@
+{
+  "src/scenedit/checkpoints.py": "0d719e16929e9a59eef0bfd3fc7d031d481883b9f6e2e2bf1b41cbd3dcd41701",
+  "src/scenedit/common.py": "fc1bf89cb26eea0c5df7d0976901800f6355b00555d4c003facee0729f282362",
+  "src/scenedit/diagnostics.py": "660b4b4da07804698960b2db56cc499ba664eb4d83f10f098ceb984973909145",
+  "src/scenedit/infer.py": "7c5e33facb0340b24318e4ef9e70581556e3d7eb062e503c5404bebd5713eefe",
+  "src/scenedit/io_backend.py": "782b9abd3da37aac9edd9ca725acdf2a46df668d2da2e6d42c79f0b81e739fee",
+  "src/scenedit/metrics.py": "85d9a7ff531044ea54f0ab309156081fd5d3f37b92cdd6a0541029f42f06c0ee",
+  "src/scenedit/prepare.py": "656afc808717db9f533bb286c3ed0760dd4b6ad6bf762f39c78b4dc1f7c4f9f6",
+  "src/scenedit/preservation.py": "d0bec4263e8421bdf48346cc8aba82de4e4fdb0328b4f81410b3ea348a01b1f6",
+  "src/scenedit/robustness.py": "2fe1474e9f0c0fcff6b9868596fbc670e1cf53265946ec88fea4e5394dc8d976",
+  "src/scenedit/__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+  "configs/preservation-ablation.json": "4022736a3f72a959295d246dbeb3ce7b3186d07db6f8303f7779aa4286248895",
+  "configs/profiles.json": "50f373318a37c5992b5d9a8690a70cb513752336e36cf16bd904eb8a91d0c570",
+  "configs/robustness.json": "28bb3a25a786e5701c7db38a11358cca33b4405ec5715c3acb81ee9ad4bfec2b",
+  "configs/sources.lock.json": "7e7ed2bbc4d2877ca35e52f8e647298eb48416298c0b8de2a4358e5ec9fc685e",
+  "configs/temporal-diagnostics.json": "dd9b7b98e5647c61a2877e2e850a7005e80fd7678dc28f1922ce0dadefb4be9a",
+  "scripts/evaluate_temporal.py": "3b1ebbafb75121f06caf989d186f9612b48144ce4d2070b561396e24354894ad"
+}

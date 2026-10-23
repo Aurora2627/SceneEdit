@@ -1,0 +1,15 @@
+{
+  "input_runs": "D:/career-projects/runs/SceneEdit/20261023-robustness-v1",
+  "output": "D:/career-projects/runs/SceneEdit/20261023-temporal-diagnostics-v1",
+  "consistency_threshold_px": 1.5,
+  "farneback": {
+    "pyr_scale": 0.5,
+    "levels": 3,
+    "winsize": 15,
+    "iterations": 3,
+    "poly_n": 5,
+    "poly_sigma": 1.2,
+    "flags": 0
+  },
+  "scope": "Exploratory diagnostics on all six previously inspected runs; shared original-source optical flow; no claim of perceptual or semantic quality; no tuning based on these results."
+}
