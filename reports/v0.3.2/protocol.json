@@ -1,0 +1,50 @@
+{
+  "base_prepared": "D:/career-projects/runs/SceneEdit/20261022-car-background/car-roundabout/prepared-pilot",
+  "baseline_run": "D:/career-projects/runs/SceneEdit/20261022-car-background/baseline-v1/car-roundabout-with-reference",
+  "model_dir": "D:/career-projects/models/SceneEdit/574e6a744642ce3bee319afc31496b88bde8aac4",
+  "output": "D:/career-projects/runs/SceneEdit/20261023-preservation-v2",
+  "conditions": [
+    {
+      "name": "scale1-radius0",
+      "scale": 1,
+      "radius": 0
+    },
+    {
+      "name": "scale1.3-radius0",
+      "scale": 1.3,
+      "radius": 0
+    },
+    {
+      "name": "scale1-radius3",
+      "scale": 1,
+      "radius": 3
+    },
+    {
+      "name": "scale1.3-radius3",
+      "scale": 1.3,
+      "radius": 3
+    }
+  ],
+  "padding_policy": "noneditable letterbox for all four conditions",
+  "base_prepared_sha256": "9983cd1e9af4b8bc13b75bc903483d441f5ae2495eb3f8a1989ab4a5c6a90c2f",
+  "code": {
+    "src/scenedit/checkpoints.py": "0c9ce00a214091d25188a9b635f6196d263b11c644807deedce0503702956824",
+    "src/scenedit/common.py": "7c328917907d3470951aed96f0400332c62bb34b6af4cbc327c9b69ee569cc76",
+    "src/scenedit/infer.py": "9e6130a3e7e02f28e2fa30b1cab7091a1787e71aadc41ffd413cdc9905ac7301",
+    "src/scenedit/io_backend.py": "736e4de6bfc3965d486c4e4eac0d3f5343bab08306c1e8cb5cacd750d173ae9e",
+    "src/scenedit/metrics.py": "ccdcbcb64a87667c45d9ec856a7012dc24fc518bb9da19647b247fbf8955fefb",
+    "src/scenedit/prepare.py": "c98f9e7fb619f5c7071bbca4410ffd889ff8cb8d50c52401e00d2873fd8c556a",
+    "src/scenedit/preservation.py": "9d491746a01595aecd73d5c5cdebddee11163f2650b867f40a02a158987d0f67",
+    "src/scenedit/__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+    "configs/preservation-ablation.json": "12925a21ce3791d14b7e6675d9b54e06aa4e38ba504da50f1e9760388e108662",
+    "configs/profiles.json": "50f373318a37c5992b5d9a8690a70cb513752336e36cf16bd904eb8a91d0c570",
+    "configs/sources.lock.json": "7e7ed2bbc4d2877ca35e52f8e647298eb48416298c0b8de2a4358e5ec9fc685e"
+  },
+  "scope": "car-roundabout only; matching noneditable letterbox policy for all four conditions; no output compositing",
+  "correction": {
+    "excluded_baseline": "D:/career-projects/runs/SceneEdit/20261022-car-background/baseline-v1/car-roundabout-with-reference",
+    "reason": "Historical reference baseline had editable letterbox; variants had noneditable letterbox. Historical baseline cannot isolate the scale effect.",
+    "prior_run": "D:\\career-projects\\runs\\SceneEdit\\20261023-preservation-v1",
+    "old_results_sha256": "df3a1426af00290dd15b9f1e36a9088207fd8b918dc641afc4d97b4e8f73ebcd"
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "scale1-radius0",
+    "scale": 1,
+    "radius": 0,
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-preservation-v2\\scale1-radius0",
+    "metrics": {
+      "foreground_pixel_mae": 0.05162244333940394,
+      "boundary_pixel_mae": 0.1831359574023415,
+      "far_background_pixel_change": 0.33405332179630504
+    },
+    "seconds": 102.68154870008584,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "297e0f52ca31263631fa051dafc639cbee61b90a1623f7add5f2b3f65843c20f",
+    "prepared_sha256": "b4670232db8424fbf78b4e9bad3cf23a214408a75172e598eac2893aa7a6025a",
+    "fixed_definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion."
+  },
+  {
+    "name": "scale1.3-radius0",
+    "scale": 1.3,
+    "radius": 0,
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-preservation-v1\\scale1.3-radius0",
+    "metrics": {
+      "foreground_pixel_mae": 0.052609196480582744,
+      "boundary_pixel_mae": 0.1718542532009237,
+      "far_background_pixel_change": 0.3244326237369986
+    },
+    "seconds": 112.25064360001124,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "e5b35cae511fb1fac4bddc54a06082cd2442043f5effa06154b3e650d407e0d5",
+    "prepared_sha256": "7719bdc35ea85e4daab8b5294481ae0fed2fbafecf1d97d2d4bff2014dc6dbe6",
+    "fixed_definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion."
+  },
+  {
+    "name": "scale1-radius3",
+    "scale": 1,
+    "radius": 3,
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-preservation-v1\\scale1-radius3",
+    "metrics": {
+      "foreground_pixel_mae": 0.04881740186144324,
+      "boundary_pixel_mae": 0.13400091274696238,
+      "far_background_pixel_change": 0.3197463084669674
+    },
+    "seconds": 100.49010419996921,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "d3a1c320466ce4dcb8d0484dd773bcf0cb177a28f5f695c1e6f1401bff5d99c9",
+    "prepared_sha256": "590b7bdc0710ba3cdee0bfcd7264933efe9f4a4302c12a391eb16bbf2683a55f",
+    "fixed_definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion."
+  },
+  {
+    "name": "scale1.3-radius3",
+    "scale": 1.3,
+    "radius": 3,
+    "run": "D:\\career-projects\\runs\\SceneEdit\\20261023-preservation-v1\\scale1.3-radius3",
+    "metrics": {
+      "foreground_pixel_mae": 0.0520613213234088,
+      "boundary_pixel_mae": 0.1276168928426855,
+      "far_background_pixel_change": 0.2577882286380319
+    },
+    "seconds": 101.3608372999588,
+    "peak_allocated_gib": 4.457607746124268,
+    "output_sha256": "9aa713a4edc1f601e6cedd94dd75122c913230ae80fbe97ebfc986bdf2712ec7",
+    "prepared_sha256": "1e90a07743530fc5f141a52f5249283156c555138708c24e8d1a7d86f1be111f",
+    "fixed_definition": "Original foreground, fixed 3px boundary ring, background outside ring. Letterbox excluded; identical evaluation regions across all variants. Pixel diagnostics only, no semantic or temporal quality conclusion."
+  }
+]
