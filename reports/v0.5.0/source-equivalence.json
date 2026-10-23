@@ -1,0 +1,191 @@
+{
+  "method": "Python ast.dump(include_attributes=False); comments and whitespace excluded; all own Python sources checked",
+  "files": [
+    {
+      "path": "scripts/build_review.py",
+      "before_sha256": "99ae9ecf041444304866933ff79347371ecc71370dc1ccc7ebd2ddfd070db0bb",
+      "after_sha256": "ec041716e52ddaa43a638c10a8c64665c5186ffba37c6f512362c3b0d928e6d2",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/check_environment.py",
+      "before_sha256": "651fdf0ad451009cede818f11871d797fd3ba896cb366da56983c94cd258728c",
+      "after_sha256": "35d9048c8a7c6348fcdd1c32057ad2133b7934e93106bb82ad522bec6a6ffc0e",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/convert_checkpoints.py",
+      "before_sha256": "5f68f4333986a032ae412845e5c28127bdb2c900c026c76fd499277998c6f148",
+      "after_sha256": "57258ad2628fc7e7b50ae169fe4b457b3d4af6090d54a1e901c2aa79a617710c",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/download_assets.py",
+      "before_sha256": "ef7e2393f9c7fa48510a4d22f6bad2f43ff9fc041eae4373ed41fc8c067fe973",
+      "after_sha256": "ea68a1a3d206a62225f1d9221b14b5bf55d0a4fdfa2a86b823ac1a6d281883a9",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/export_baseline_report.py",
+      "before_sha256": "f92748b67d4a29484a81baf56f04ced574b89252151e4a246cc35eedff98b946",
+      "after_sha256": "7a6754dce086d20222218c51489fd8e891f698d486ab4d4d8853054f8f308312",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/http_range.py",
+      "before_sha256": "e2dcf181ada7f29bda7d26a6d14f3b835169468895062f3335604b0f6af14979",
+      "after_sha256": "69b27d9a1818a584d571cbbc96dc390fd9bad13278cbc978a77ded3f2e8f95a0",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/install_environment.py",
+      "before_sha256": "55d7f717bdae09de09478a99b3ba36c018f8eadb4a03fd1c5e0914e87302dbfb",
+      "after_sha256": "b7c9b9f213963fe54d1e3fd616858217ff02d0029290ef71910a2386c00d462c",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/pin_sources.py",
+      "before_sha256": "7d3d1c0d8e3eb17ceffffc5cc9b8b975fe9a14935b936cdcb1810b0d61a86c4a",
+      "after_sha256": "162e2cf953c6d19ceeb7d0ed6b100626ff67b8f73c1e30dd578004fe10d09a74",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/prepare_davis_cases.py",
+      "before_sha256": "17e3953f29e6a9456ca74cb889ef797abe7ac956d5e646f58b88f6d8a9e1cc96",
+      "after_sha256": "0dafcfc4ca88dce8eef8cf24b901535bf79fd08abcccbe65beffdab02a3f58d9",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/prepare_demo.py",
+      "before_sha256": "ca3eca6f2517c724ae289d4eb741aae6dcd6d18e1930cae9fe64a4493f4efb86",
+      "after_sha256": "ad083cbe847791b19d7af0f21088d4c73a2b936c7eee9190d9d830289dbbe8e0",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/repair_preservation_control.py",
+      "before_sha256": "5971ba8cdb85873eaa5afc2c9378204e495689a311210f7ceb70583de43c403f",
+      "after_sha256": "b4cb17f152eb27aea395f8f79441b388aba21f5617ba96030b250f7864b8de23",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/run_car_baseline.py",
+      "before_sha256": "e43d846aa6ce236bd1ee6adbfd03e300515b1a2f44e87d64acb4bc7955895c55",
+      "after_sha256": "5cdf26601104672598208a893b6da8bb513684f877a23d9f9ed2d2aa20a9c9fc",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/run_demo_when_ready.py",
+      "before_sha256": "d4a223e116ca16e088a8574c5da50c647370dd4f2c56b1279c5309445854be8b",
+      "after_sha256": "081b0f80b2844d5257920f51d5fdcbe0b3f388e985ce39ce0ad18b27ebb1c663",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/run_preservation_ablation.py",
+      "before_sha256": "8dc9a73b6d85d83a6c288d27ef767daba16670706edf42acab7f160e543eb278",
+      "after_sha256": "75a028bfd9eb33178eb353b7747fa959fcb2caab4266c9346493f9096ec0d3a4",
+      "ast_unchanged": true
+    },
+    {
+      "path": "scripts/run_robustness.py",
+      "before_sha256": "a956b4a8f22e4e8a0b90d908fbbb6cf80c759b10b9e4d71f02d64fb2c80bdda8",
+      "after_sha256": "025b5769f910b8e14953ded6af9698cee5af8cbb54bae2867d52d83275bad528",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/__init__.py",
+      "before_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "after_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/checkpoints.py",
+      "before_sha256": "4a2f7c2fc654dd01f964bcd356a055e74cdd03c4ff3050748389e4aba27e0c23",
+      "after_sha256": "98664825a16a1b1524a3af57ab0db03c7b4b104d3815a163e9e8b685468e8095",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/common.py",
+      "before_sha256": "db3dbd7c7a7611b307f0519ce0505ad51732c21066168aee04a594a5a6719472",
+      "after_sha256": "fc1bf89cb26eea0c5df7d0976901800f6355b00555d4c003facee0729f282362",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/infer.py",
+      "before_sha256": "7a985ed9490280604f15ca79de3b462608cced101fbf9e3e08e35832f1fb0341",
+      "after_sha256": "a86d90fc3764cbbfa83e4d21198b538ede6afd295a86439a574273120f7df584",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/io_backend.py",
+      "before_sha256": "4c9eebd2c48529671697104035efbe45e06127f96b164b2043be9c3171b5279e",
+      "after_sha256": "9b085404bff6c9dbad22019083d6c6a495df9da392e9d0dbdfb1dc72c64f7c8b",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/metrics.py",
+      "before_sha256": "8277bc0912fae7fedee2f10f4540b0aa31e0dfb0c70514c10d9383b519d508d1",
+      "after_sha256": "da4b5dc92001faea6099d7dfc1904c58952480b7c7e6d763c6d3b5c947188b49",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/prepare.py",
+      "before_sha256": "9f8d2e5bfbc715942804f0b38582116c509cdf42f3041b5197103d0c9f2f568e",
+      "after_sha256": "29ac78d180b74204065c9e6c38917c067a6fb778c2f7b32a856744c3fad7fb02",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/preservation.py",
+      "before_sha256": "e3ff4d072c11855e0f2bd293ecaf123dbe947f8f97dfe2ae0fb14efb64dbc464",
+      "after_sha256": "d0bec4263e8421bdf48346cc8aba82de4e4fdb0328b4f81410b3ea348a01b1f6",
+      "ast_unchanged": true
+    },
+    {
+      "path": "src/scenedit/robustness.py",
+      "before_sha256": "d359b3195e27c0e13ed73188d3b496b2108501f4893fa0ef3f24f616d7a04ddf",
+      "after_sha256": "481b6a2e8e58dc2aee76cf74db6f6fcf00d4a3ec8c93c27ade1d53d1b7ad7f57",
+      "ast_unchanged": true
+    },
+    {
+      "path": "tests/test_io_backend.py",
+      "before_sha256": "b58964629c7d804b10126c3188510c8628697a64c023268e13fb897595f9d4b3",
+      "after_sha256": "cab7d7d50a0b02df1a46bd1e5414e92e63ec034ee3e3b2cef888112349035d35",
+      "ast_unchanged": true
+    },
+    {
+      "path": "tests/test_metrics_integration.py",
+      "before_sha256": "6e0ebee9a47c44b02aca1f3b1f5f4bc98d906bfccb41262a084f855fb6b87087",
+      "after_sha256": "a724329d84b81ad2030322dd965b4dcbf2b967e9aa53d463160d41655f2c330b",
+      "ast_unchanged": true
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "before_sha256": "f96deeecd7c25bab56674249a0cfb66ce959b1c68d8e4055e1e2f20255584702",
+      "after_sha256": "6d8a4f379c60de25f523704f327c637c22d78765f8e5fcaf948dc49fa5b4159f",
+      "ast_unchanged": true
+    },
+    {
+      "path": "tests/test_preservation.py",
+      "before_sha256": "ee0da9b3a47b6dae61e5c26d250b8659f6bfbe2e443064dcdf9063bd55fad214",
+      "after_sha256": "cf146d15c3c5ef74e7b8af40718d3b2c31c3714df931deb8d093d61543e2954b",
+      "ast_unchanged": true
+    },
+    {
+      "path": "tests/test_resources.py",
+      "before_sha256": "984fa00f5ad97eedd390a4bb498cd6b072f01e34a07282d10cbc449a9d081080",
+      "after_sha256": "fc5ef499162b17a071fffbe858f0ef48f96e42e8b683d0ffe8beffd2768bee7a",
+      "ast_unchanged": true
+    },
+    {
+      "path": "tests/test_robustness.py",
+      "before_sha256": "636e065ca63b62e497c3f6815f30850ddc53a89b6df5bc423c03114f5fdf3ce5",
+      "after_sha256": "f70294d4b7fac84164eeebca66a1479a12da3a6e36ca69dddb08df48fd6f323f",
+      "ast_unchanged": true
+    },
+    {
+      "path": "tests/test_variant_preparation.py",
+      "before_sha256": "a53b56f313ae043b6bc9a3aafedc9c41b06ee6f043441e69011bf45559fedf42",
+      "after_sha256": "757cd4c9f1429f95a9a63f0ad6ab098611834e11ff7bac3b9ec5a8794539f566",
+      "ast_unchanged": true
+    }
+  ]
+}

@@ -15,3 +15,7 @@ scenedit-evaluate = "scenedit.metrics:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.black]
+target-version = ["py310"]
+line-length = 88

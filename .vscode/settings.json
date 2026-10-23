@@ -8,5 +8,9 @@
     "-s",
     "tests"
   ],
-  "files.encoding": "utf8"
+  "files.encoding": "utf8",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/src",
+    "${workspaceFolder}/vendor/DiffSynth-Studio"
+  ]
 }

@@ -1,0 +1,44 @@
+[
+  {
+    "run": "car-roundabout-seed7-radius0",
+    "max_mean_absolute_difference": 5.259233382126638e-09,
+    "max_per_frame_absolute_difference": 5.960464477539063e-08,
+    "absolute_tolerance": 1e-07,
+    "within_tolerance": true
+  },
+  {
+    "run": "car-roundabout-seed7-radius3",
+    "max_mean_absolute_difference": 1.0518466708742125e-08,
+    "max_per_frame_absolute_difference": 5.960464477539063e-08,
+    "absolute_tolerance": 1e-07,
+    "within_tolerance": true
+  },
+  {
+    "run": "car-roundabout-seed123-radius0",
+    "max_mean_absolute_difference": 5.259233382126638e-09,
+    "max_per_frame_absolute_difference": 5.960464477539063e-08,
+    "absolute_tolerance": 1e-07,
+    "within_tolerance": true
+  },
+  {
+    "run": "car-roundabout-seed123-radius3",
+    "max_mean_absolute_difference": 1.7530777940422126e-09,
+    "max_per_frame_absolute_difference": 5.960464477539063e-08,
+    "absolute_tolerance": 1e-07,
+    "within_tolerance": true
+  },
+  {
+    "run": "car-turn-seed42-radius0",
+    "max_mean_absolute_difference": 5.259233326615487e-09,
+    "max_per_frame_absolute_difference": 2.9802322387695312e-08,
+    "absolute_tolerance": 1e-07,
+    "within_tolerance": true
+  },
+  {
+    "run": "car-turn-seed42-radius3",
+    "max_mean_absolute_difference": 1.0518466708742125e-08,
+    "max_per_frame_absolute_difference": 5.960464477539063e-08,
+    "absolute_tolerance": 1e-07,
+    "within_tolerance": true
+  }
+]
