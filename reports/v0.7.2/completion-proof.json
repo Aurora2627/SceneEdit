@@ -1,0 +1,24 @@
+{
+  "generation": {
+    "status": "complete",
+    "started": "2026-10-27T02:00:59.352122-07:00",
+    "pid": 38064,
+    "planned_runs": 8,
+    "completed_runs": 8,
+    "stage": "drift-straight-forest-seed23-radius3",
+    "human_review": "pending",
+    "finished": "2026-10-27T02:28:39.201274-07:00"
+  },
+  "workflow": {
+    "status": "awaiting_human_review",
+    "started": "2026-10-27T01:59:14.005211-07:00",
+    "stage": "scripts/run_independent_validation.py",
+    "finished": "2026-10-27T02:28:50.666755-07:00"
+  },
+  "independent_source_sequences": 2,
+  "paired_tasks": 4,
+  "human_review": "pending",
+  "verification": "45 tests passed; both packages verified; completed-run status hash unchanged after read-only reentry.",
+  "started_asia_shanghai": "2026-10-27T17:00:59.352122+08:00",
+  "finished_asia_shanghai": "2026-10-27T17:28:39.201274+08:00"
+}

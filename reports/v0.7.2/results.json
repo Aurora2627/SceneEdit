@@ -1,0 +1,335 @@
+{
+  "status": "automatic_validation_complete_human_review_pending",
+  "experiment": "independent-v3",
+  "protocol_sha256": "dbcc61246370d12cc4d7bcf06798eb37e75d5b336d266b23768e4961045d696f",
+  "source_revision": "e0f34dd9f001d566f56ca6ce5b8247b9ac1eea90",
+  "actual_profile": {
+    "width": 448,
+    "height": 256,
+    "num_frames": 13,
+    "fps": 8,
+    "steps": 20,
+    "seed": 23,
+    "cfg_scale": 5.0,
+    "vace_scale": 1.0,
+    "vram_limit_gib": 5.5
+  },
+  "config": {
+    "cases": [
+      "car-shadow",
+      "drift-straight"
+    ],
+    "scenes": {
+      "coast": "a coastal road with the blue sea and distant cliffs, warm late afternoon daylight",
+      "forest": "a road through a lush green forest, tall trees and soft natural daylight"
+    },
+    "seeds": [
+      23
+    ],
+    "radii": [
+      0,
+      3
+    ],
+    "scale": 1,
+    "scope": "Frozen new-source validation. No parameter selection from these outputs. Source clips are research data, not commercial advertising assets. Each source sequence is one statistical unit; prompts and seeds are repeated measures. Short sequences use 13 frames at 8 fps; comparisons are within this profile only."
+  },
+  "environment": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "source_revision": "e0f34dd9f001d566f56ca6ce5b8247b9ac1eea90"
+  },
+  "summary": {
+    "pairs": [
+      {
+        "case": "car-shadow",
+        "scene": "coast",
+        "seed": 23,
+        "metrics": {
+          "foreground_pixel_mae": {
+            "baseline": 0.1016230182005809,
+            "candidate": 0.09243978674595173,
+            "delta": -0.009183231454629168,
+            "reduction_percent": 9.036566338251776
+          },
+          "boundary_pixel_mae": {
+            "baseline": 0.22671715571330145,
+            "candidate": 0.15614178203619444,
+            "delta": -0.070575373677107,
+            "reduction_percent": 31.129260357497667
+          },
+          "far_background_pixel_change": {
+            "baseline": 0.2677448850411635,
+            "candidate": 0.21271482683145082,
+            "delta": -0.055030058209712684,
+            "reduction_percent": 20.55316881263755
+          }
+        }
+      },
+      {
+        "case": "car-shadow",
+        "scene": "forest",
+        "seed": 23,
+        "metrics": {
+          "foreground_pixel_mae": {
+            "baseline": 0.10293284087226941,
+            "candidate": 0.09412157248992187,
+            "delta": -0.00881126838234754,
+            "reduction_percent": 8.560211014948619
+          },
+          "boundary_pixel_mae": {
+            "baseline": 0.25205848194085634,
+            "candidate": 0.14930975494476464,
+            "delta": -0.1027487269960917,
+            "reduction_percent": 40.76384424952655
+          },
+          "far_background_pixel_change": {
+            "baseline": 0.3460513261648325,
+            "candidate": 0.33205758837553173,
+            "delta": -0.013993737789300742,
+            "reduction_percent": 4.043833018757221
+          }
+        }
+      },
+      {
+        "case": "drift-straight",
+        "scene": "coast",
+        "seed": 23,
+        "metrics": {
+          "foreground_pixel_mae": {
+            "baseline": 0.1477134101665937,
+            "candidate": 0.12988383552202812,
+            "delta": -0.017829574644565582,
+            "reduction_percent": 12.07038319977657
+          },
+          "boundary_pixel_mae": {
+            "baseline": 0.20154515367287856,
+            "candidate": 0.1657173794049483,
+            "delta": -0.03582777426793027,
+            "reduction_percent": 17.77654962921171
+          },
+          "far_background_pixel_change": {
+            "baseline": 0.30191584963064927,
+            "candidate": 0.2772719470354227,
+            "delta": -0.024643902595226586,
+            "reduction_percent": 8.162507077841347
+          }
+        }
+      },
+      {
+        "case": "drift-straight",
+        "scene": "forest",
+        "seed": 23,
+        "metrics": {
+          "foreground_pixel_mae": {
+            "baseline": 0.16675363710293403,
+            "candidate": 0.1465938801948841,
+            "delta": -0.02015975690804994,
+            "reduction_percent": 12.089545546527232
+          },
+          "boundary_pixel_mae": {
+            "baseline": 0.24377305576434502,
+            "candidate": 0.19374857040551993,
+            "delta": -0.05002448535882509,
+            "reduction_percent": 20.52092476011117
+          },
+          "far_background_pixel_change": {
+            "baseline": 0.2898378601441017,
+            "candidate": 0.2763222845701071,
+            "delta": -0.013515575573994576,
+            "reduction_percent": 4.663150482574946
+          }
+        }
+      }
+    ],
+    "source_sequences": 2,
+    "paired_tasks": 4,
+    "generated_videos": 8,
+    "interpretation": "Pixel diagnostics only. Background change is not instruction adherence. No frame-wise significance test; no perceptual-quality claim without human review."
+  },
+  "rows": [
+    {
+      "name": "car-shadow-coast-seed23-radius0",
+      "case": "car-shadow",
+      "scene": "coast",
+      "seed": 23,
+      "radius": 0,
+      "metrics": {
+        "foreground_pixel_mae": 0.1016230182005809,
+        "boundary_pixel_mae": 0.22671715571330145,
+        "far_background_pixel_change": 0.2677448850411635
+      },
+      "seconds": 106.5793418000685,
+      "peak_allocated_gib": 4.457554340362549,
+      "source_sha256": "a98d5af499a018c5e8868102d6b4ae8e75a545dafae0181825d2af97d63ffa25",
+      "reference_sha256": "f1d258eab22cfdb0cfbea2c214279d23e3625874d6bc0a0f478ec08d2b0b3653",
+      "output_sha256": "589ca139044726551969013e6c59ab1fbc48599abdcee41333660dcea7571a6b"
+    },
+    {
+      "name": "car-shadow-coast-seed23-radius3",
+      "case": "car-shadow",
+      "scene": "coast",
+      "seed": 23,
+      "radius": 3,
+      "metrics": {
+        "foreground_pixel_mae": 0.09243978674595173,
+        "boundary_pixel_mae": 0.15614178203619444,
+        "far_background_pixel_change": 0.21271482683145082
+      },
+      "seconds": 90.82149040000513,
+      "peak_allocated_gib": 4.457554340362549,
+      "source_sha256": "a98d5af499a018c5e8868102d6b4ae8e75a545dafae0181825d2af97d63ffa25",
+      "reference_sha256": "f1d258eab22cfdb0cfbea2c214279d23e3625874d6bc0a0f478ec08d2b0b3653",
+      "output_sha256": "a79c8212d0f65d87d27c344682850e40ba3b46fbfa4ee8279c150c5bf3f3f879"
+    },
+    {
+      "name": "car-shadow-forest-seed23-radius0",
+      "case": "car-shadow",
+      "scene": "forest",
+      "seed": 23,
+      "radius": 0,
+      "metrics": {
+        "foreground_pixel_mae": 0.10293284087226941,
+        "boundary_pixel_mae": 0.25205848194085634,
+        "far_background_pixel_change": 0.3460513261648325
+      },
+      "seconds": 91.06302999996115,
+      "peak_allocated_gib": 4.457554340362549,
+      "source_sha256": "a98d5af499a018c5e8868102d6b4ae8e75a545dafae0181825d2af97d63ffa25",
+      "reference_sha256": "f1d258eab22cfdb0cfbea2c214279d23e3625874d6bc0a0f478ec08d2b0b3653",
+      "output_sha256": "d3ddf882b55a9a36e0bfb885371363694ac6a9e2d6f7370974bebc1d85ac165d"
+    },
+    {
+      "name": "car-shadow-forest-seed23-radius3",
+      "case": "car-shadow",
+      "scene": "forest",
+      "seed": 23,
+      "radius": 3,
+      "metrics": {
+        "foreground_pixel_mae": 0.09412157248992187,
+        "boundary_pixel_mae": 0.14930975494476464,
+        "far_background_pixel_change": 0.33205758837553173
+      },
+      "seconds": 96.96991420001723,
+      "peak_allocated_gib": 4.457554340362549,
+      "source_sha256": "a98d5af499a018c5e8868102d6b4ae8e75a545dafae0181825d2af97d63ffa25",
+      "reference_sha256": "f1d258eab22cfdb0cfbea2c214279d23e3625874d6bc0a0f478ec08d2b0b3653",
+      "output_sha256": "4a1e5a96040b9050a5d5267dd789ce1166d03ea3cf8ee3efa9c6d4d6c7ea8da1"
+    },
+    {
+      "name": "drift-straight-coast-seed23-radius0",
+      "case": "drift-straight",
+      "scene": "coast",
+      "seed": 23,
+      "radius": 0,
+      "metrics": {
+        "foreground_pixel_mae": 0.1477134101665937,
+        "boundary_pixel_mae": 0.20154515367287856,
+        "far_background_pixel_change": 0.30191584963064927
+      },
+      "seconds": 97.79127470008098,
+      "peak_allocated_gib": 4.457554340362549,
+      "source_sha256": "3e7b832d51684ebdb840c4a27519941dd30dafad5bbdabefa36be0d8186af4e0",
+      "reference_sha256": "5685df39898f3e1856d9b639c954c4910286dbdf6595b856ff82718640b400dd",
+      "output_sha256": "424749ef2b7871e574670b01cfb9452bdd31a5ebe0e609ead168bbe2331af0d6"
+    },
+    {
+      "name": "drift-straight-coast-seed23-radius3",
+      "case": "drift-straight",
+      "scene": "coast",
+      "seed": 23,
+      "radius": 3,
+      "metrics": {
+        "foreground_pixel_mae": 0.12988383552202812,
+        "boundary_pixel_mae": 0.1657173794049483,
+        "far_background_pixel_change": 0.2772719470354227
+      },
+      "seconds": 94.88406459998805,
+      "peak_allocated_gib": 4.457554340362549,
+      "source_sha256": "3e7b832d51684ebdb840c4a27519941dd30dafad5bbdabefa36be0d8186af4e0",
+      "reference_sha256": "5685df39898f3e1856d9b639c954c4910286dbdf6595b856ff82718640b400dd",
+      "output_sha256": "f88ed8f6eb322b51885d8299230eb5b9f661fa8a67358ae9b226cabb05ffa853"
+    },
+    {
+      "name": "drift-straight-forest-seed23-radius0",
+      "case": "drift-straight",
+      "scene": "forest",
+      "seed": 23,
+      "radius": 0,
+      "metrics": {
+        "foreground_pixel_mae": 0.16675363710293403,
+        "boundary_pixel_mae": 0.24377305576434502,
+        "far_background_pixel_change": 0.2898378601441017
+      },
+      "seconds": 90.06351130001713,
+      "peak_allocated_gib": 4.457554340362549,
+      "source_sha256": "3e7b832d51684ebdb840c4a27519941dd30dafad5bbdabefa36be0d8186af4e0",
+      "reference_sha256": "5685df39898f3e1856d9b639c954c4910286dbdf6595b856ff82718640b400dd",
+      "output_sha256": "5c5924e2dda5b1f9319a99ea9f25f0122786feaaa2d9aa8b362a916851a4dc04"
+    },
+    {
+      "name": "drift-straight-forest-seed23-radius3",
+      "case": "drift-straight",
+      "scene": "forest",
+      "seed": 23,
+      "radius": 3,
+      "metrics": {
+        "foreground_pixel_mae": 0.1465938801948841,
+        "boundary_pixel_mae": 0.19374857040551993,
+        "far_background_pixel_change": 0.2763222845701071
+      },
+      "seconds": 94.98709519999102,
+      "peak_allocated_gib": 4.457554340362549,
+      "source_sha256": "3e7b832d51684ebdb840c4a27519941dd30dafad5bbdabefa36be0d8186af4e0",
+      "reference_sha256": "5685df39898f3e1856d9b639c954c4910286dbdf6595b856ff82718640b400dd",
+      "output_sha256": "545375cafffe2598e906b69d6edbc4534f3f8c86c259e8f29eb69cf620dd9c10"
+    }
+  ],
+  "source_snapshot": {
+    "src/scenedit/benchmark.py": "767370aa2428fdf0a98968bcd4d1746ea8d184b92bb56f63717bca0e3d2ffef0",
+    "src/scenedit/checkpoints.py": "0d719e16929e9a59eef0bfd3fc7d031d481883b9f6e2e2bf1b41cbd3dcd41701",
+    "src/scenedit/common.py": "fc1bf89cb26eea0c5df7d0976901800f6355b00555d4c003facee0729f282362",
+    "src/scenedit/diagnostics.py": "660b4b4da07804698960b2db56cc499ba664eb4d83f10f098ceb984973909145",
+    "src/scenedit/infer.py": "7c5e33facb0340b24318e4ef9e70581556e3d7eb062e503c5404bebd5713eefe",
+    "src/scenedit/io_backend.py": "782b9abd3da37aac9edd9ca725acdf2a46df668d2da2e6d42c79f0b81e739fee",
+    "src/scenedit/metrics.py": "85d9a7ff531044ea54f0ab309156081fd5d3f37b92cdd6a0541029f42f06c0ee",
+    "src/scenedit/prepare.py": "656afc808717db9f533bb286c3ed0760dd4b6ad6bf762f39c78b4dc1f7c4f9f6",
+    "src/scenedit/preservation.py": "d0bec4263e8421bdf48346cc8aba82de4e4fdb0328b4f81410b3ea348a01b1f6",
+    "src/scenedit/review.py": "e016bfa28f452be74b8e0bed752127088fa0db4905fc5e5efcab2db5ac3cc2c6",
+    "src/scenedit/robustness.py": "2fe1474e9f0c0fcff6b9868596fbc670e1cf53265946ec88fea4e5394dc8d976",
+    "src/scenedit/__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+    "scripts/analyze_blind_review.py": "4936e5829226580617aad7529626c95762b9213379286fe9261cf13965728aab",
+    "scripts/build_blind_review.py": "79ee5f6d372a610d8f2dba8e0b3937293ad291098caa71a92587bb5c10dc3af0",
+    "scripts/build_review.py": "c37bea291710ee258654cc543c2b1a0b05186730ec3c4eb8fe965ad01e90f50d",
+    "scripts/check_blind_review.py": "5cf37187be62e0876f423aec1402ec6dc457825919eeafe91abec2a88427acdf",
+    "scripts/check_environment.py": "ba7fb0cb12734485528370ed5e3239a3df74295eeb12eeafaf249dd7434eba78",
+    "scripts/convert_checkpoints.py": "3d82d5da27e12828879e0534f46c221290b996975025b1edc0cbd50587d22385",
+    "scripts/download_assets.py": "18be64d5328f620f6cdfe391fbe40266b70b87645fcadc906dece2b81b02bb4c",
+    "scripts/evaluate_temporal.py": "3b1ebbafb75121f06caf989d186f9612b48144ce4d2070b561396e24354894ad",
+    "scripts/export_baseline_report.py": "e6ef3257f3bd378afc859215ddec70b813cf6a46ba8b38887b4d38b9e8225dab",
+    "scripts/export_temporal_report.py": "d047baa558f05c89eed7f4a0781818e5728715b4654d27cc4afdc2ec92158c42",
+    "scripts/http_range.py": "06c4f1a11a86bc06d83b672776f681c5d75416a5adc77efa9cc2ed7663cb9337",
+    "scripts/inspect_davis_archive.py": "845347b17781e7742e5d9d0efb079a37e27738cc9c8902e1451ecf2b42a3b09c",
+    "scripts/install_environment.py": "f0955176a8097a6cdc0a196ebff925086905e63da888162bb3dddae48b8afe43",
+    "scripts/pin_sources.py": "c552419f6ddf6cf599db9f383ac65030ee4f45ad590db5eccc46876e1c237ff7",
+    "scripts/prepare_davis_cases.py": "5ca5c066baa6da43951a8c51346bb067afd17890f4a3885e51d6da8dce8441b1",
+    "scripts/prepare_demo.py": "2acb736061e347fe2e1daf7ab029cf4021e5475fe826e98a203e5969a3f6f252",
+    "scripts/prepare_independent_validation.py": "b5290e8a920f0065697ec04cb2858c1518bf99b4f153d4f2f5ba4e0fe0d9b071",
+    "scripts/repair_preservation_control.py": "271551dfa24bfb9fb7be2c231720100e25163733e33f48f1072b438d730e28d1",
+    "scripts/run_car_baseline.py": "77c71327d6c35dc9e2112f49a3b99c61e17e0ee529b27d3bb15c41cc3e96d9e4",
+    "scripts/run_demo_when_ready.py": "42c0992338dfe240c92e76168ec747c98c3d07cd956bb65da38eb33f803579cc",
+    "scripts/run_independent_validation.py": "ae7f24b5e78a79d6454d10b5732ce804ce5afa9175731e2ec5a9046c43338794",
+    "scripts/run_preservation_ablation.py": "f7f6c757a8bd2945fb6ab7d1855f63abee9fcc2b2c0ebeab968f1434aa576cb9",
+    "scripts/run_robustness.py": "4d7203d1f91045ae7601c1629bacfe234ac57f4bc5abcf4d01b480e85149030e",
+    "scripts/validation_workflow.py": "72ccf105c51fa9c699e177397140f5ec05bc7535d8300f38900d84a000fe7f83",
+    "configs/independent-validation.json": "dff3bea1cd03a15b73b80b92f5da588f0b6bf747915a0ed07273019350e98012",
+    "configs/preservation-ablation.json": "4022736a3f72a959295d246dbeb3ce7b3186d07db6f8303f7779aa4286248895",
+    "configs/profiles.json": "2dd809c9ba6abe573c052b02c68c997ef5a34260a3b1f289d7ab6f6ac798968d",
+    "configs/robustness.json": "28bb3a25a786e5701c7db38a11358cca33b4405ec5715c3acb81ee9ad4bfec2b",
+    "configs/sources.lock.json": "7e7ed2bbc4d2877ca35e52f8e647298eb48416298c0b8de2a4358e5ec9fc685e",
+    "configs/temporal-diagnostics.json": "dd9b7b98e5647c61a2877e2e850a7005e80fd7678dc28f1922ce0dadefb4be9a"
+  },
+  "report_source_sha256": "abbcfcdc44da454b7c35197a8a96ef41b330ccdd9a2441c5547d1486d109471a"
+}
