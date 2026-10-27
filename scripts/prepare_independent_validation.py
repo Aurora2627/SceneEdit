@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 from scenedit.common import read, save, sha, profile, snapshot
 from scenedit.prepare import prepare
-from scenedit.benchmark import planned_jobs
+from scenedit.benchmark import planned_jobs, sequence_members
 from http_range import RangeReader
 from prepare_davis_cases import URL, ETAG, SIZE
 
@@ -39,15 +39,12 @@ def prepare_cases(config_path):
         },
     )
     with RangeReader(URL, ETAG, SIZE) as remote, zipfile.ZipFile(remote) as archive:
+        settings = profile(config["profile"])
+        minimum = 1 + round((settings["num_frames"] - 1) * 25 / settings["fps"])
+        selected = sequence_members(archive.namelist(), config["cases"], minimum)
         for case in config["cases"]:
             root = data / case
-            names = sorted(
-                n
-                for n in archive.namelist()
-                if n.startswith(f"DAVIS/JPEGImages/480p/{case}/") and n.endswith(".jpg")
-            )[:51]
-            if len(names) < 17:
-                raise ValueError("Missing or short source sequence: " + case)
+            names = selected[case]
             images, masks, hashes = [], [], {}
             for member in names:
                 pair = []

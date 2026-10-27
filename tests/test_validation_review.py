@@ -133,5 +133,38 @@ class HumanReviewContracts(unittest.TestCase):
             summarize_reviews([review, review])
 
 
+class ArchiveInventoryTests(unittest.TestCase):
+    def test_missing_case_fails_before_extraction(self):
+        from scenedit.benchmark import sequence_members
+
+        names = [
+            "DAVIS/JPEGImages/480p/car-shadow/00000.jpg",
+            "DAVIS/Annotations/480p/car-shadow/00000.png",
+        ]
+        with self.assertRaises(ValueError):
+            sequence_members(names, ["car-shadow", "missing-case"], 1)
+
+    def test_missing_mask_is_rejected(self):
+        from scenedit.benchmark import sequence_members
+
+        with self.assertRaises(ValueError):
+            sequence_members(
+                ["DAVIS/JPEGImages/480p/car-shadow/00000.jpg"], ["car-shadow"], 1
+            )
+
+    def test_complete_inventory_and_short_source(self):
+        from scenedit.benchmark import sequence_members
+
+        names = [
+            "DAVIS/JPEGImages/480p/car-shadow/00000.jpg",
+            "DAVIS/Annotations/480p/car-shadow/00000.png",
+        ]
+        self.assertEqual(
+            len(sequence_members(names, ["car-shadow"], 1)["car-shadow"]), 1
+        )
+        with self.assertRaises(ValueError):
+            sequence_members(names, ["car-shadow"], 2)
+
+
 if __name__ == "__main__":
     unittest.main()

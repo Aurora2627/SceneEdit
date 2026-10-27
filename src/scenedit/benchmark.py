@@ -80,3 +80,26 @@ def paired_summary(records, config):
         generated_videos=len(records),
         interpretation="Pixel diagnostics only. Background change is not instruction adherence. No frame-wise significance test; no perceptual-quality claim without human review.",
     )
+
+
+def sequence_members(names, cases, minimum_frames):
+    """Validate the entire source/mask inventory before extracting the first case."""
+    inventory = set(names)
+    selected = {}
+    for case in cases:
+        images = sorted(
+            name
+            for name in inventory
+            if name.startswith(f"DAVIS/JPEGImages/480p/{case}/")
+            and name.endswith(".jpg")
+        )[:51]
+        if len(images) < minimum_frames:
+            raise ValueError("Missing or short source sequence: " + case)
+        masks = [
+            name.replace("JPEGImages", "Annotations").replace(".jpg", ".png")
+            for name in images
+        ]
+        if any(mask not in inventory for mask in masks):
+            raise ValueError("Incomplete source/mask inventory: " + case)
+        selected[case] = images
+    return selected
