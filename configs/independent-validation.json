@@ -1,0 +1,24 @@
+{
+  "output": "D:/career-projects/runs/SceneEdit/20261027-independent-v2",
+  "data_root": "D:/career-projects/data/SceneEdit/independent-v2",
+  "model_dir": "D:/career-projects/models/SceneEdit/574e6a744642ce3bee319afc31496b88bde8aac4",
+  "profile": "short-validation",
+  "cases": [
+    "car-shadow",
+    "car-drift"
+  ],
+  "scenes": {
+    "coast": "a coastal road with the blue sea and distant cliffs, warm late afternoon daylight",
+    "forest": "a road through a lush green forest, tall trees and soft natural daylight"
+  },
+  "seeds": [
+    23
+  ],
+  "radii": [
+    0,
+    3
+  ],
+  "scale": 1,
+  "scope": "Frozen new-source validation. No parameter selection from these outputs. Source clips are research data, not commercial advertising assets. Each source sequence is one statistical unit; prompts and seeds are repeated measures. Short sequences use 13 frames at 8 fps; comparisons are within this profile only.",
+  "cache_root": "D:/career-projects/data/SceneEdit/independent-v1"
+}

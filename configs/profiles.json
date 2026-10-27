@@ -31,5 +31,16 @@
     "cfg_scale": 5.0,
     "vace_scale": 1.0,
     "vram_limit_gib": 20.0
+  },
+  "short-validation": {
+    "width": 448,
+    "height": 256,
+    "num_frames": 13,
+    "fps": 8,
+    "steps": 20,
+    "seed": 23,
+    "cfg_scale": 5.0,
+    "vace_scale": 1.0,
+    "vram_limit_gib": 5.5
   }
 }

@@ -36,6 +36,16 @@
         "--output-dir",
         "${input:generated}"
       ]
+    },
+    {
+      "name": "SceneEdit: 独立素材验证与匿名评审",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/validation_workflow.py",
+      "python": "D:/career-projects/envs/scenedit/Scripts/python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
     }
   ],
   "inputs": [
